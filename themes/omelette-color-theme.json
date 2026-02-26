@@ -3,20 +3,64 @@
 	"colors": {
 		"editor.background": "#232323",
 		"editor.foreground": "#ffffff",
+		// "focusBorder": "#ffe69a",
+		"focusBorder": "#00000000",
+		"progressBar.background": "#ffe69a",
+		"scrollbar.shadow": "#00000000",
+		//////////////////////////////////////////
+		"button.background": "#505050",
+		//////////////////////////////////////////
 		"activityBarBadge.background": "#ffe69a",
 		"activityBarBadge.foreground": "#232323",
+		//////////////////////////////////////////
 		"sideBarTitle.foreground": "#ffffff",
 		"sideBar.foreground": "#ececec",
 		"sideBar.background": "#1c1c1c",
-		"statusBar.background": "#1c1c1c",
+		//////////////////////////////////////////
 		"titleBar.activeBackground": "#1c1c1c",
-		"editor.lineHighlightBackground": "#2e2e2e",
+		"statusBar.background": "#1c1c1c",
+		"statusBar.noFolderBackground": "#1c1c1c",
+		"editorGroupHeader.tabsBackground": "#222222",
+		//////////////////////////////////////////
 		"editorGutter.modifiedBackground": "#ffa770",
 		"editorGutter.addedBackground": "#82e396",
 		"editorGutter.deletedBackground": "#fc618d",
 		"debugIcon.breakpointForeground": "#fc618d",
+		//////////////////////////////////////////
+		"diffEditor.insertedLineBackground": "#82e39530",
+		"diffEditor.removedLineBackground": "#fc618d30",
+		//////////////////////////////////////////
 		"tab.inactiveBackground": "#222222",
 		"tab.hoverForeground": "#f7f1ff",
+		"tab.border": "#383838",
+		"tab.hoverBackground": "#282828",
+		//////////////////////////////////////////
+		"editor.selectionBackground": "#333333",
+		"editor.lineHighlightBackground": "#2e2e2e",
+		"editor.inactiveSelectionBackground": "#3333337e",
+		"editor.findMatchHighlightBackground": "#494949aa",
+		"editor.wordHighlightStrongBackground": "#f7f1ff26",
+		//////////////////////////////////////////
+		"editor.findMatchBackground": "#f7f1ff26",
+		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
+		"editorSuggestWidget.selectedForeground": "#ffe69a",
+		"editorSuggestWidget.highlightForeground": "#ffffff",
+		"editorSuggestWidget.selectedBackground": "#2e2e2e",
+		"editorSuggestWidget.foreground": "#8b8b8b",
+		//////////////////////////////////////////
+		"selection.background": "#8b8b8b",
+		"list.activeSelectionBackground": "#2e2e2e",
+		"pickerGroup.foreground": "#8b8b8b",
+		"widget.shadow": "#00000000",
+		"editorWidget.foreground": "#8b8b8b",
+		"list.highlightForeground": "#ffffff",
+		//////////////////////////////////////////
+		"editorBracketHighlight.foreground1": "#fc618d",
+		"editorBracketHighlight.foreground2": "#ffa770",
+		"editorBracketHighlight.foreground3": "#ffe69a",
+		"editorBracketHighlight.foreground4": "#82e396",
+		"editorBracketHighlight.foreground5": "#9694ff",
+		"editorBracketHighlight.foreground6": "#d3a1ff",
 	},
 	"tokenColors": [
 		{
@@ -58,6 +102,12 @@
 			"scope": [
 				"keyword.control.import.python",
 				"keyword.operator",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
 			],
 			"settings": {
 				"fontStyle": "",
