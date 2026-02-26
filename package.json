@@ -1,0 +1,21 @@
+{
+  "name": "omelette",
+  "displayName": "omelette",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "omelette",
+        "uiTheme": "vs-dark",
+        "path": "./themes/omelette-color-theme.json"
+      }
+    ]
+  }
+}
