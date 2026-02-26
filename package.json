@@ -1,9 +1,9 @@
 {
   "name": "omelette",
-  "version": "0.1",
+  "version": "0.1.0",
   "displayName": "omelette theme",
   "description": "TODO",
-  "icon": "TODO",
+  "icon": "",
   "engines": {
     "vscode": "^1.109.0"
   },
