@@ -19,6 +19,7 @@
 		//////////////////////////////////////////
 		"titleBar.activeBackground": "#1c1c1c",
 		"statusBar.background": "#1c1c1c",
+		"statusBar.foreground": "#ececec",
 		"statusBar.noFolderBackground": "#1c1c1c",
 		"editorGroupHeader.tabsBackground": "#222222",
 		//////////////////////////////////////////
@@ -35,13 +36,14 @@
 		"tab.border": "#383838",
 		"tab.hoverBackground": "#282828",
 		//////////////////////////////////////////
-		"editor.selectionBackground": "#333333",
+		"editor.selectionBackground": "#2e2e2e",
 		"editor.lineHighlightBackground": "#2e2e2e",
 		"editor.inactiveSelectionBackground": "#3333337e",
 		"editor.findMatchHighlightBackground": "#494949aa",
 		"editor.wordHighlightStrongBackground": "#f7f1ff26",
 		//////////////////////////////////////////
 		"editor.findMatchBackground": "#f7f1ff26",
+		"editorHoverWidget.foreground": "#f7f1ff",
 		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
 		"editorSuggestWidget.selectedForeground": "#ffe69a",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
@@ -61,6 +63,8 @@
 		"editorBracketHighlight.foreground4": "#82e396",
 		"editorBracketHighlight.foreground5": "#9694ff",
 		"editorBracketHighlight.foreground6": "#d3a1ff",
+		//////////////////////////////////////////
+		"terminal.foreground": "#f7f1ff"
 	},
 	"tokenColors": [
 		{
@@ -84,13 +88,17 @@
 		{
 			"name": "grey italic",
 			"scope": [
-				"string.quoted.docstring.multi.python",
 				"commment",
+				"string.quoted.docstring.multi.python",
 				"variable.language.special.self.python",
 				"variable.language.special.cls.python",
 				"variable.parameter.function.language.special.self.python",
 				"variable.parameter.function.language.special.cls.python",
-				"comment.line.number-sign.python"
+				"comment.line.number-sign.python",
+				"comment.line.double-slash",
+				"comment.block",
+				"entity.name.scope-resolution.parameter.cpp",
+				"entity.name.scope-resolution.cpp",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -108,6 +116,8 @@
 				"punctuation.definition.list.end.python",
 				"punctuation.definition.dict.begin.python",
 				"punctuation.definition.dict.end.python",
+				"keyword.control.directive.include.c",
+				"keyword.control.directive.include.cpp",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -117,7 +127,12 @@
 		{
 			"name": "red italic",
 			"scope": [
-				"keyword.control.flow.python"
+				"keyword.control.flow.python",
+				"keyword.control",
+				"storage.modifier.public.cs",
+				"storage.modifier.private.cs",
+				"storage.type.accessor.get.cs",
+				"storage.type.accessor.set.cs",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -127,7 +142,12 @@
 		{
 			"name": "orange italic",
 			"scope": [
-				"variable.parameter.function.language.python"
+				"variable.parameter.function.language.python",
+				"variable.parameter.function.language.c",
+				"variable.parameter.probably.c",
+				"variable.parameter.probably.c",
+				"variable.parameter.cpp",
+				"entity.name.variable.parameter.cs",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -137,7 +157,11 @@
 		{
 			"name": "yellow",
 			"scope": [
-				"string.quoted.single.python"
+				"string.quoted.single.python",
+				"string.quoted.double.python",
+				"string.quoted.single",
+				"string.quoted.double",
+				"meta.fstring.python",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -148,9 +172,13 @@
 			"name": "green",
 			"scope": [
 				"entity.name.function.python",
+				"entity.name.function.c",
+				"entity.name.function.cs",
 				"meta.function-call.generic.python",
-				// "meta.function-call.python",
-				"support.function.magic.python"
+				"meta.function-call.generic.c",
+				"support.function.magic.python",
+				"entity.name.function.definition.cpp",
+				"entity.name.function.call.cpp",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -161,7 +189,14 @@
 			"name": "blue",
 			"scope": [
 				"entity.name.type.class.python",
+				"entity.name.type.class.cs",
 				"support.type.python",
+				"keyword.type",
+				"storage.type.primitive.cpp",
+				"storage.type.class.c",
+				"storage.type.built-in.c",
+				"storage.type.built-in.primitive.c",
+				"entity.name.type.interface.cs",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -172,7 +207,12 @@
 			"name": "blue italic",
 			"scope": [
 				"storage.type.function.python",
-				"storage.type.class.python"
+				"storage.type.function.c",
+				"storage.type.class.python",
+				"storage.type.string.python",
+				"entity.name.type.parameter.cpp",
+				"storage.type.class.cs",
+				"storage.type.interface.cs",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -182,7 +222,7 @@
 		{
 			"name": "purple",
 			"scope": [
-				"constant"
+				"constant",
 			],
 			"settings": {
 				"fontStyle": "",
