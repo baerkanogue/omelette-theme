@@ -118,6 +118,8 @@
 				"punctuation.definition.dict.end.python",
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
+				"keyword.other.using.directive.cpp",
+				"storage.type.var.cs"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -133,6 +135,8 @@
 				"storage.modifier.private.cs",
 				"storage.type.accessor.get.cs",
 				"storage.type.accessor.set.cs",
+				"storage.type.modifier.access.control",
+				"storage.modifier.static.cs",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -179,6 +183,8 @@
 				"support.function.magic.python",
 				"entity.name.function.definition.cpp",
 				"entity.name.function.call.cpp",
+				"entity.name.function.definition.special.constructor.cpp",
+				"entity.name.function.member.cpp"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -197,6 +203,9 @@
 				"storage.type.built-in.c",
 				"storage.type.built-in.primitive.c",
 				"entity.name.type.interface.cs",
+				"storage.type.struct.c",
+				"entity.name.type.class.cpp",
+				"type",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -212,6 +221,7 @@
 				"storage.type.string.python",
 				"entity.name.type.parameter.cpp",
 				"storage.type.class.cs",
+				"storage.type.class.cpp",
 				"storage.type.interface.cs",
 			],
 			"settings": {
