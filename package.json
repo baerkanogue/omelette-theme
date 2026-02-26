@@ -1,11 +1,13 @@
 {
   "name": "omelette",
-  "displayName": "omelette",
-  "description": "",
-  "version": "0.0.1",
+  "version": "0.1",
+  "displayName": "omelette theme",
+  "description": "TODO",
+  "icon": "TODO",
   "engines": {
     "vscode": "^1.109.0"
   },
+  "license": "SEE LICENSE IN license.md",
   "categories": [
     "Themes"
   ],
@@ -17,5 +19,15 @@
         "path": "./themes/omelette-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baerkanogue/omelette-vscode-theme"
+  },
+  "keywords": [
+    "dark",
+    "soft",
+    "contrast",
+    "colorful"
+  ]
 }
