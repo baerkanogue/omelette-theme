@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "displayName": "omelette theme",
   "description": "TODO",
-  "icon": "",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.109.0"
   },
