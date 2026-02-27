@@ -41,8 +41,6 @@
 		"editorGroupHeader.tabsBackground": "#222222",
 		"tab.inactiveBackground": "#222222",
 		"tab.hoverForeground": "#f7f1ff",
-		"tab.border": "#383838",
-		"tab.hoverBackground": "#282828",
 		////////////////////////////////////////// SELECTION
 		"editor.selectionBackground": "#2e2e2e",
 		"editor.lineHighlightBackground": "#2e2e2e",
@@ -70,10 +68,14 @@
 		"list.highlightForeground": "#ffffff",
 		"list.hoverBackground": "#2e2e2e",
 		"list.hoverForeground": "#f7f1ff",
+		"list.errorForeground": "#fc618d",
+		"list.warningForeground": "#ffa770",
 		////////////////////////////////////////// MISC
 		"pickerGroup.foreground": "#8b8b8b",
 		"widget.shadow": "#00000030",
 		"editorWidget.foreground": "#8b8b8b",
+		"settings.modifiedItemIndicator": "#ffe69a",
+		"textLink.foreground": "#ffe69a",
 		////////////////////////////////////////// BRACKETS PAIRS
 		"editorBracketHighlight.foreground1": "#fc618d",
 		"editorBracketHighlight.foreground2": "#ffa770",

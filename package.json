@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "omelette",
+        "label": "Omelette",
         "uiTheme": "vs-dark",
         "path": "./omelette-color-theme.json"
       }
