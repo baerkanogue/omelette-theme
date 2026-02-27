@@ -26,7 +26,7 @@ for i in range(2):
     print(i, "even" if i % 2 == 0 else "odd")
 
 try:
-    1 / 0  # type: ignore
+    x = 1 / 0
 except ZeroDivisionError:
     pass
 finally:
