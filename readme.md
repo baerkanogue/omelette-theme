@@ -3,16 +3,12 @@
 **Omelette** – a dark theme with colorful, muted syntax. Mid-saturation colors ensure clarity and contrast without straining the eyes, keeping code readable and visually pleasant.
 
 Compatible with **VSCodium** and **VSCode**.
+Made for **Python**, but also compatible with **C**, **C++** and **C#**.
 
 ![front](./imgs/front.png)
 
-*Best with [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) icons.*
 
-## Syntax support:
-- Python
-- C
-- C++
-- C#
+*Best with [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) icons.*
 
 ## Installation
 
