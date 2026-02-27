@@ -1,19 +1,19 @@
 # omelette
 import math
 
-x = 42               
-y = 3.14             
-name = "Alice"       
-flag = True          
-nothing = None       
+rate: float = 3.14             
+rate_cos: float = math.cos(rate)
+name: str = "Alice"       
+flag: bool = True          
 
 def greet(who: str) -> str:
     return f"Hello {who}"
 
 class Person:
     species = "Human"
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, name: str):
+        self.name: str = name
+        self.age: int = 32
     def hello(self):
         print(greet(self.name))
 

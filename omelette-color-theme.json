@@ -250,9 +250,9 @@
 				"storage.type.class.python",
 				"storage.type.string.python",
 				"entity.name.type.parameter.cpp",
-				"storage.type.class.cs",
-				"storage.type.class.cpp",
+				"storage.type.class",
 				"storage.type.interface.cs",
+				"storage.type.namespace",
 			],
 			"settings": {
 				"fontStyle": "italic",
