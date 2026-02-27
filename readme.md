@@ -6,6 +6,8 @@ Compatible with **VSCodium** and **VSCode**.
 
 ![front](./imgs/front.png)
 
+*Best with [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) icons.*
+
 ## Syntax support:
 - Python
 - C

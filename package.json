@@ -2,8 +2,8 @@
   "name": "omelette",
   "publisher": "baerkanogue",
   "version": "0.1.0",
-  "displayName": "omelette",
-  "description": "",
+  "displayName": "Omelette",
+  "description": "Balanced, colorful code on a dark background.",
   "icon": "imgs/icon.png",
   "engines": {
     "vscode": "^1.109.0"

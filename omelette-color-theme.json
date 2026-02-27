@@ -51,6 +51,11 @@
 		"editor.wordHighlightStrongBackground": "#f7f1ff26",
 		"editor.findMatchBackground": "#f7f1ff26",
 		"selection.background": "#8b8b8b",
+		////////////////////////////////////////// MINIMAP
+		"minimap.selectionHighlight": "#ffffff1f",
+		"minimap.errorHighlight": "#fc618d50",
+		"minimap.warningHighlight": "#ffa77050",
+		"minimap.infoHighlight": "#82e39650",
 		////////////////////////////////////////// HOVER WIDGET
 		"editorHoverWidget.foreground": "#f7f1ff",
 		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
@@ -86,6 +91,10 @@
 		"gitDecoration.ignoredResourceForeground": "#8b8b8b",
 		"gitDecoration.conflictingResourceForeground": "#e1aaff",
 		"gitDecoration.submoduleResourceForeground": "#ffffff",
+		////////////////////////////////////////// ERRORS
+		"editorError.foreground": "#fc618d",
+		"editorWarning.foreground": "#ffa770",
+		"editorInfo.foreground": "#82e396",
 	},
 	"tokenColors": [
 		{
