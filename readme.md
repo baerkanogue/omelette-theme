@@ -20,7 +20,7 @@ code --install-extension omelette.vsix
 ```
 
 Or copy and paste the repo onto the VSCodium / VSCode extensions directory:
-```md
+```bash
 # Linux
 /home/<your_username>/.vscodium/extensions/
 # or
