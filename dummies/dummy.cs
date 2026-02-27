@@ -2,10 +2,9 @@
 using System;
 using System.Collections.Generic;
 
-class Person
+class Person(string n)
 {
-    public string Name { get; set; }
-    public Person(string n) { Name = n; }
+    public string Name { get; set; } = n;
     public void Greet() => Console.WriteLine($"Hello {Name}");
 }
 

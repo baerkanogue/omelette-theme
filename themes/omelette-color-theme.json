@@ -1,70 +1,90 @@
 {
 	"name": "omelette",
 	"colors": {
+		////////////////////////////////////////// TOP LEVEL
 		"editor.background": "#232323",
 		"editor.foreground": "#ffffff",
-		// "focusBorder": "#ffe69a",
 		"focusBorder": "#00000000",
 		"progressBar.background": "#ffe69a",
 		"scrollbar.shadow": "#00000000",
-		//////////////////////////////////////////
+		"contrastBorder": "#3e3e3ed5",
+		////////////////////////////////////////// BUTTONS
 		"button.background": "#505050",
-		//////////////////////////////////////////
+		////////////////////////////////////////// BADGE
 		"activityBarBadge.background": "#ffe69a",
 		"activityBarBadge.foreground": "#232323",
-		//////////////////////////////////////////
+		////////////////////////////////////////// SIDE BAR
 		"sideBarTitle.foreground": "#ffffff",
 		"sideBar.foreground": "#ececec",
 		"sideBar.background": "#1c1c1c",
-		//////////////////////////////////////////
+		////////////////////////////////////////// TITLE BAR
 		"titleBar.activeBackground": "#1c1c1c",
+		////////////////////////////////////////// STATUS BAR
 		"statusBar.background": "#1c1c1c",
 		"statusBar.foreground": "#ececec",
 		"statusBar.noFolderBackground": "#1c1c1c",
-		"editorGroupHeader.tabsBackground": "#222222",
-		//////////////////////////////////////////
+		"statusBar.debuggingBackground": "#ffa770",
+		"statusBar.debuggingForeground": "#1c1c1c",
+		"statusBarItem.errorBackground": "#1c1c1c",
+		"statusBarItem.errorForeground": "#fc618d",
+		"statusBarItem.warningBackground": "#1c1c1c",
+		"statusBarItem.warningForeground": "#ffa770",
+		////////////////////////////////////////// GUTTER
 		"editorGutter.modifiedBackground": "#ffa770",
 		"editorGutter.addedBackground": "#82e396",
 		"editorGutter.deletedBackground": "#fc618d",
 		"debugIcon.breakpointForeground": "#fc618d",
-		//////////////////////////////////////////
-		"diffEditor.insertedLineBackground": "#82e39530",
+		////////////////////////////////////////// DIFF EDITOR
+		"diffEditor.insertedLineBackground": "#00000000",
 		"diffEditor.removedLineBackground": "#fc618d30",
-		//////////////////////////////////////////
+		////////////////////////////////////////// TABS
+		"editorGroupHeader.tabsBackground": "#222222",
 		"tab.inactiveBackground": "#222222",
 		"tab.hoverForeground": "#f7f1ff",
 		"tab.border": "#383838",
 		"tab.hoverBackground": "#282828",
-		//////////////////////////////////////////
+		////////////////////////////////////////// SELECTION
 		"editor.selectionBackground": "#2e2e2e",
 		"editor.lineHighlightBackground": "#2e2e2e",
 		"editor.inactiveSelectionBackground": "#3333337e",
 		"editor.findMatchHighlightBackground": "#494949aa",
 		"editor.wordHighlightStrongBackground": "#f7f1ff26",
-		//////////////////////////////////////////
 		"editor.findMatchBackground": "#f7f1ff26",
+		"selection.background": "#8b8b8b",
+		////////////////////////////////////////// HOVER WIDGET
 		"editorHoverWidget.foreground": "#f7f1ff",
 		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
 		"editorSuggestWidget.selectedForeground": "#ffe69a",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
 		"editorSuggestWidget.selectedBackground": "#2e2e2e",
 		"editorSuggestWidget.foreground": "#8b8b8b",
-		//////////////////////////////////////////
-		"selection.background": "#8b8b8b",
+		////////////////////////////////////////// LISTS
+		"list.inactiveSelectionBackground": "#232323",
 		"list.activeSelectionBackground": "#2e2e2e",
+		"list.highlightForeground": "#ffffff",
+		"list.hoverBackground": "#2e2e2e",
+		"list.hoverForeground": "#f7f1ff",
+		////////////////////////////////////////// MISC
 		"pickerGroup.foreground": "#8b8b8b",
 		"widget.shadow": "#00000000",
 		"editorWidget.foreground": "#8b8b8b",
-		"list.highlightForeground": "#ffffff",
-		//////////////////////////////////////////
+		////////////////////////////////////////// BRACKETS PAIRS
 		"editorBracketHighlight.foreground1": "#fc618d",
 		"editorBracketHighlight.foreground2": "#ffa770",
 		"editorBracketHighlight.foreground3": "#ffe69a",
 		"editorBracketHighlight.foreground4": "#82e396",
 		"editorBracketHighlight.foreground5": "#9694ff",
-		"editorBracketHighlight.foreground6": "#d3a1ff",
-		//////////////////////////////////////////
-		"terminal.foreground": "#f7f1ff"
+		"editorBracketHighlight.foreground6": "#e1aaff",
+		////////////////////////////////////////// TERMINAL
+		"terminal.foreground": "#f7f1ff",
+		////////////////////////////////////////// GIT
+		"gitDecoration.addedResourceForeground": "#82e396",
+		"gitDecoration.modifiedResourceForeground": "#ffa770",
+		"gitDecoration.deletedResourceForeground": "#fc618d",
+		"gitDecoration.untrackedResourceForeground": "#9694ff",
+		"gitDecoration.ignoredResourceForeground": "#8b8b8b",
+		"gitDecoration.conflictingResourceForeground": "#e1aaff",
+		"gitDecoration.submoduleResourceForeground": "#ffffff",
 	},
 	"tokenColors": [
 		{
@@ -88,7 +108,6 @@
 		{
 			"name": "grey italic",
 			"scope": [
-				"commment",
 				"string.quoted.docstring.multi.python",
 				"variable.language.special.self.python",
 				"variable.language.special.cls.python",
@@ -149,7 +168,6 @@
 				"variable.parameter.function.language.python",
 				"variable.parameter.function.language.c",
 				"variable.parameter.probably.c",
-				"variable.parameter.probably.c",
 				"variable.parameter.cpp",
 				"entity.name.variable.parameter.cs",
 			],
@@ -184,7 +202,8 @@
 				"entity.name.function.definition.cpp",
 				"entity.name.function.call.cpp",
 				"entity.name.function.definition.special.constructor.cpp",
-				"entity.name.function.member.cpp"
+				"entity.name.function.member.cpp",
+				"support.function.builtin.python",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -205,7 +224,7 @@
 				"entity.name.type.interface.cs",
 				"storage.type.struct.c",
 				"entity.name.type.class.cpp",
-				"type",
+				"support.type.exception.python",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -236,7 +255,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d3a1ff"
+				"foreground": "#e1aaff"
 			}
 		},
 	]
