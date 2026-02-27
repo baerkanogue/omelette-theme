@@ -2,8 +2,8 @@
   "name": "omelette",
   "version": "0.1.0",
   "displayName": "omelette theme",
-  "description": "TODO",
-  "icon": "icon.png",
+  "description": "",
+  "icon": "imgs/icon.png",
   "engines": {
     "vscode": "^1.109.0"
   },
