@@ -60,13 +60,14 @@
 		"editorSuggestWidget.foreground": "#8b8b8b",
 		////////////////////////////////////////// LISTS
 		"list.inactiveSelectionBackground": "#232323",
+		"list.activeSelectionForeground": "#ffe69a",
 		"list.activeSelectionBackground": "#2e2e2e",
 		"list.highlightForeground": "#ffffff",
 		"list.hoverBackground": "#2e2e2e",
 		"list.hoverForeground": "#f7f1ff",
 		////////////////////////////////////////// MISC
 		"pickerGroup.foreground": "#8b8b8b",
-		"widget.shadow": "#00000000",
+		"widget.shadow": "#00000030",
 		"editorWidget.foreground": "#8b8b8b",
 		////////////////////////////////////////// BRACKETS PAIRS
 		"editorBracketHighlight.foreground1": "#fc618d",

@@ -17,7 +17,7 @@
       {
         "label": "omelette",
         "uiTheme": "vs-dark",
-        "path": "./themes/omelette-color-theme.json"
+        "path": "./omelette-color-theme.json"
       }
     ]
   },
