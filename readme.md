@@ -4,6 +4,8 @@
 
 Compatible with **VSCodium** and **VSCode**.
 
+![front](./imgs/front.png)
+
 ## Syntax support:
 - Python
 - C

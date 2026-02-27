@@ -13,3 +13,6 @@ if [[ -f "$vsix_file" ]]; then
 else
     echo "File $vsix_file not found!"
 fi
+
+cp "$vsix_file" export/omelette.vsix
+echo omelette.vsix copied to export dir
