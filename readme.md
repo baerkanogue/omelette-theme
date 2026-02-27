@@ -18,3 +18,16 @@ Download the VSIX file in [Releases](https://github.com/baerkanogue/omelette-the
 ```bash
 code --install-extension omelette.vsix
 ```
+
+Or copy and paste the repo onto the VSCodium / VSCode extensions directory:
+```md
+# Linux
+/home/<your_username>/.vscodium/extensions/
+# or
+/home/<your_username>/.vscode/extensions/
+
+# Windows
+C:\Users\<YourUsername>\.vscodium\extensions\
+# or
+C:\Users\<YourUsername>\.vscode\extensions\
+```
