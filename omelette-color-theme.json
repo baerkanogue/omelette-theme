@@ -17,6 +17,7 @@
 		"sideBarTitle.foreground": "#ffffff",
 		"sideBar.foreground": "#ececec",
 		"sideBar.background": "#1c1c1c",
+		"sideBarSectionHeader.background": "#1c1c1c",
 		////////////////////////////////////////// TITLE BAR
 		"titleBar.activeBackground": "#1c1c1c",
 		////////////////////////////////////////// STATUS BAR
@@ -41,6 +42,7 @@
 		"editorGroupHeader.tabsBackground": "#222222",
 		"tab.inactiveBackground": "#222222",
 		"tab.hoverForeground": "#f7f1ff",
+		"tab.activeBorder": "#fce566",
 		////////////////////////////////////////// SELECTION
 		"editor.selectionBackground": "#2e2e2e",
 		"editor.lineHighlightBackground": "#2e2e2e",
@@ -63,6 +65,7 @@
 		"editorSuggestWidget.foreground": "#8b8b8b",
 		////////////////////////////////////////// LISTS
 		"list.inactiveSelectionBackground": "#232323",
+		"list.inactiveSelectionForeground": "#d7d7d7",
 		"list.activeSelectionForeground": "#ffe69a",
 		"list.activeSelectionBackground": "#2e2e2e",
 		"list.highlightForeground": "#ffffff",
@@ -114,7 +117,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#8b8b8b"
+				"foreground": "#a1a1a1"
 			}
 		},
 		{
@@ -133,7 +136,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#8b8b8b"
+				"foreground": "#a1a1a1"
 			}
 		},
 		{
