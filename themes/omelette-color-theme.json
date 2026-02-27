@@ -138,7 +138,8 @@
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
 				"keyword.other.using.directive.cpp",
-				"storage.type.var.cs"
+				"storage.type.var.cs",
+				"keyword.other.directive.using.cs",
 			],
 			"settings": {
 				"fontStyle": "",

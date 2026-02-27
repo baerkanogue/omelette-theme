@@ -1,5 +1,7 @@
 #!/bin/bash
 
+vsce package
+
 read -p "Enter omelette version: " version
 
 vsix_file="omelette-${version}.vsix"
