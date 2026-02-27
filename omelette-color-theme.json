@@ -186,6 +186,7 @@
 				"variable.parameter.probably.c",
 				"variable.parameter.cpp",
 				"entity.name.variable.parameter.cs",
+				"variable.parameter.function-call.python",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -220,6 +221,7 @@
 				"entity.name.function.definition.special.constructor.cpp",
 				"entity.name.function.member.cpp",
 				"support.function.builtin.python",
+				"entity.name.function.decorator.python"
 			],
 			"settings": {
 				"fontStyle": "",
