@@ -98,6 +98,7 @@
 		"editorWidget.foreground": "#8b8b8b",
 		"settings.modifiedItemIndicator": "#ffe69a",
 		"textLink.foreground": "#ffe69a",
+		"textLink.activeForeground": "#9694ff",
 		"editorLink.activeForeground": "#ffe69a",
 		////////////////////////////////////////// BRACKETS PAIRS
 		"editorBracketHighlight.foreground1": "#fc618d",
