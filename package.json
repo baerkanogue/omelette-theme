@@ -6,7 +6,7 @@
   "description": "Balanced, colorful code on a dark background.",
   "icon": "imgs/icon.png",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.100.0"
   },
   "license": "SEE LICENSE IN license.md",
   "categories": [
