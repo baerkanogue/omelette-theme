@@ -8,21 +8,31 @@
 		"progressBar.background": "#ffe69a",
 		"scrollbar.shadow": "#00000000",
 		"contrastBorder": "#3e3e3ed5",
+		"icon.foreground": "#8b8b8b",
 		////////////////////////////////////////// BUTTONS
 		"button.background": "#505050",
 		////////////////////////////////////////// BADGE
 		"activityBarBadge.background": "#ffe69a",
 		"activityBarBadge.foreground": "#232323",
 		////////////////////////////////////////// SIDE BAR
-		"sideBarTitle.foreground": "#ffffff",
-		"sideBar.foreground": "#ececec",
+		"sideBarTitle.foreground": "#999999",
+		"sideBar.foreground": "#999999",
 		"sideBar.background": "#1c1c1c",
 		"sideBarSectionHeader.background": "#1c1c1c",
+		////////////////////////////////////////// ACTIVITY BAR
+		"activityBar.foreground": "#d0d0d0",
+		"activityBar.inactiveForeground": "#999999",
+		"activityBar.activeBorder": "#ffe69a",
+		"activityBar.activeFocusBorder": "#ffe69a",
+		"activityBar.background": "#1c1c1c",
+		"badge.background": "#ffe69a",
+		"badge.foreground": "#1c1c1c",
+		"sideBarSectionHeader.border": "#3e3e3ed5",
 		////////////////////////////////////////// TITLE BAR
 		"titleBar.activeBackground": "#1c1c1c",
 		////////////////////////////////////////// STATUS BAR
 		"statusBar.background": "#1c1c1c",
-		"statusBar.foreground": "#ececec",
+		"statusBar.foreground": "#999999",
 		"statusBar.noFolderBackground": "#1c1c1c",
 		"statusBar.debuggingBackground": "#ffa770",
 		"statusBar.debuggingForeground": "#1c1c1c",
