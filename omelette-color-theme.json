@@ -58,6 +58,7 @@
 		"minimap.infoHighlight": "#a1f4b050",
 		////////////////////////////////////////// HOVER WIDGET
 		"editorHoverWidget.foreground": "#f7f1ff",
+		////////////////////////////////////////// SUGGEST WIDGET
 		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
 		"editorSuggestWidget.selectedForeground": "#ffe69a",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
@@ -100,6 +101,17 @@
 		"editorError.foreground": "#fc618d",
 		"editorWarning.foreground": "#ffa770",
 		"editorInfo.foreground": "#a1f4b0",
+		////////////////////////////////////////// SUGGEST ICONS
+		"symbolIcon.classForeground": "#9694ff",
+		"symbolIcon.objectForeground": "#9694ff",
+		"symbolIcon.methodForeground": "#82e396",
+		"symbolIcon.functionForeground": "#82e396",
+		"symbolIcon.variableForeground": "#ffa770",
+		"symbolIcon.propertyForeground": "#ffa770",
+		"symbolIcon.booleanForeground": "#e1aaff",
+		"symbolIcon.constantForeground": "#e1aaff",
+		"symbolIcon.operatorForeground": "#fc618d",
+		"symbolIcon.keywordForeground": "#fc618d",
 	},
 	"tokenColors": [
 		{
@@ -243,6 +255,18 @@
 				"storage.type.struct.c",
 				"entity.name.type.class.cpp",
 				"support.type.exception.python",
+				"entity.name.type.cpp",
+				"entity.name.type.c",
+				"entity.name.type.class.reference",
+				"entity.name.type",
+				"entity.name.namespace",
+				"entity.name.class",
+				"support.class",
+				"support.type",
+				"entity.name.type.class",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
 			],
 			"settings": {
 				"fontStyle": "",
