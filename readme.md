@@ -1,11 +1,3 @@
-<table align="center">
-  <tr>
-    <td><img src="./imgs/mini_icon.png" width="48" height="48">
-    <td align="center"><h1>Omelette</h1></td>
-    <td><img src="./imgs/mini_icon.png" width="48" height="48">
-  </tr>
-</table>
-
 **Omelette** – a dark theme with colorful, muted syntax. Mid-saturation colors ensure clarity and contrast without straining the eyes, keeping code readable and visually pleasant.
 
 Compatible with **VSCodium** and **VSCode**.
