@@ -47,7 +47,7 @@
 		"statusBarItem.warningForeground": "#ffa770",
 		////////////////////////////////////////// GUTTER
 		"editorGutter.modifiedBackground": "#ffa770",
-		"editorGutter.addedBackground": "#a1f4b0",
+		"editorGutter.addedBackground": "#8fe09e",
 		"editorGutter.deletedBackground": "#fc618d",
 		"debugIcon.breakpointForeground": "#fc618d",
 		////////////////////////////////////////// DIFF EDITOR
@@ -73,7 +73,7 @@
 		"minimap.selectionHighlight": "#ffffff1f",
 		"minimap.errorHighlight": "#fc618d50",
 		"minimap.warningHighlight": "#ffa77050",
-		"minimap.infoHighlight": "#a1f4b050",
+		"minimap.infoHighlight": "#8fe09e50",
 		////////////////////////////////////////// HOVER WIDGET
 		"editorHoverWidget.foreground": "#f7f1ff",
 		////////////////////////////////////////// SUGGEST WIDGET
@@ -104,13 +104,13 @@
 		"editorBracketHighlight.foreground1": "#fc618d",
 		"editorBracketHighlight.foreground2": "#ffa770",
 		"editorBracketHighlight.foreground3": "#ffe69a",
-		"editorBracketHighlight.foreground4": "#a1f4b0",
+		"editorBracketHighlight.foreground4": "#8fe09e",
 		"editorBracketHighlight.foreground5": "#9694ff",
 		"editorBracketHighlight.foreground6": "#e1aaff",
 		////////////////////////////////////////// TERMINAL
 		"terminal.foreground": "#f7f1ff",
 		////////////////////////////////////////// GIT
-		"gitDecoration.addedResourceForeground": "#a1f4b0",
+		"gitDecoration.addedResourceForeground": "#8fe09e",
 		"gitDecoration.modifiedResourceForeground": "#ffa770",
 		"gitDecoration.deletedResourceForeground": "#fc618d",
 		"gitDecoration.untrackedResourceForeground": "#9694ff",
@@ -120,12 +120,12 @@
 		////////////////////////////////////////// ERRORS
 		"editorError.foreground": "#fc618d",
 		"editorWarning.foreground": "#ffa770",
-		"editorInfo.foreground": "#a1f4b0",
+		"editorInfo.foreground": "#8fe09e",
 		////////////////////////////////////////// SUGGEST ICONS
 		"symbolIcon.classForeground": "#9694ff",
 		"symbolIcon.objectForeground": "#9694ff",
-		"symbolIcon.methodForeground": "#82e396",
-		"symbolIcon.functionForeground": "#82e396",
+		"symbolIcon.methodForeground": "#8fe09e",
+		"symbolIcon.functionForeground": "#8fe09e",
 		"symbolIcon.variableForeground": "#ffa770",
 		"symbolIcon.propertyForeground": "#ffa770",
 		"symbolIcon.booleanForeground": "#e1aaff",
@@ -137,8 +137,8 @@
 		"terminal.ansiBrightBlack": "#8b8b8b",
 		"terminal.ansiRed": "#fc618d",
 		"terminal.ansiBrightRed": "#fc618d",
-		"terminal.ansiGreen": "#a1f4b0",
-		"terminal.ansiBrightGreen": "#a1f4b0",
+		"terminal.ansiGreen": "#8fe09e",
+		"terminal.ansiBrightGreen": "#8fe09e",
 		"terminal.ansiYellow": "#ffe69a",
 		"terminal.ansiBrightYellow": "#ffe69a",
 		"terminal.ansiBlue": "#9694ff",
@@ -274,7 +274,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#a1f4b0"
+				"foreground": "#8fe09e"
 			}
 		},
 		{
