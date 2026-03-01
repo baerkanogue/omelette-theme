@@ -1,4 +1,4 @@
-# Omelette
+# ![mini_icon](./imgs/mini_icon.png) Omelette
 
 **Omelette** – a dark theme with colorful, muted syntax. Mid-saturation colors ensure clarity and contrast without straining the eyes, keeping code readable and visually pleasant.
 
@@ -8,6 +8,8 @@ Made for **Python**, but also compatible with **C**, **C++** and **C#**.
 ![front](./imgs/front.png)
 
 To get more customization, **[read this](./more/more_custom.md)**.
+
+Extension icon by *[Théo Desmaison](https://www.instagram.com/turfboiz/)*.
 
 ## Installation
 
