@@ -7,8 +7,7 @@ Made for **Python**, but also compatible with **C**, **C++** and **C#**.
 
 ![front](./imgs/front.png)
 
-
-*Best with [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode) icons.*
+To get more customization, **read [this](./more/more_custom.md)**.
 
 ## Installation
 
