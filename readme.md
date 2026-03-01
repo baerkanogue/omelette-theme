@@ -1,4 +1,10 @@
-# ![mini_icon](./imgs/mini_icon.png) Omelette
+<table align="center">
+  <tr>
+    <td><img src="./imgs/mini_icon.png" width="48" height="48">
+    <td><span style="font-size: 42px; font-weight: 700;">Omelette</span>
+    <td><img src="./imgs/mini_icon.png" width="48" height="48">
+  </tr>
+</table>
 
 **Omelette** – a dark theme with colorful, muted syntax. Mid-saturation colors ensure clarity and contrast without straining the eyes, keeping code readable and visually pleasant.
 
