@@ -1,8 +1,8 @@
 # omelette
 import math
+from time import sleep
 
 rate: float = 3.14
-rate_cos: float = math.cos(rate)
 name: str = "Alice"
 flag: bool = True
 
@@ -26,8 +26,7 @@ for i in range(2):
     print(i, "even" if i % 2 == 0 else "odd")
 
 try:
-    x = 1 / 0
-except ZeroDivisionError:
-    pass
-finally:
-    print("done")
+    while True:
+        x = 1 / 0
+except ZeroDivisionError as error:
+    print(f"ERROR: {error}")

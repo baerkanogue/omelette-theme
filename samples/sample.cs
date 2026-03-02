@@ -18,8 +18,10 @@ class Program
         double y = 3.14;
         bool ok = true;
         string s = "Hi";
-
-        var list = new List<int> { 1, 2, 3 };
+        if (x + y <= 10.0)
+        {
+            var list = new List<int> { 1, 2, 3 };
+        }
         var p = new Person("Alice");
         p.Greet();
 

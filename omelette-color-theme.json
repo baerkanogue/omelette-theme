@@ -191,7 +191,6 @@
 		{
 			"name": "red",
 			"scope": [
-				"keyword.control.import.python",
 				"keyword.operator",
 				"punctuation.definition.arguments.begin.python",
 				"punctuation.definition.arguments.end.python",
@@ -199,11 +198,6 @@
 				"punctuation.definition.list.end.python",
 				"punctuation.definition.dict.begin.python",
 				"punctuation.definition.dict.end.python",
-				"keyword.control.directive.include.c",
-				"keyword.control.directive.include.cpp",
-				"keyword.other.using.directive.cpp",
-				"storage.type.var.cs",
-				"keyword.other.directive.using.cs",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -213,6 +207,12 @@
 		{
 			"name": "red italic",
 			"scope": [
+				"storage.type.var.cs",
+				"keyword.other.directive.using.cs",
+				"keyword.control.directive.include.c",
+				"keyword.control.directive.include.cpp",
+				"keyword.other.using.directive.cpp",
+				"keyword.control.import.python",
 				"keyword.control.flow.python",
 				"keyword.control",
 				"storage.modifier.public.cs",
@@ -221,6 +221,7 @@
 				"storage.type.accessor.set.cs",
 				"storage.type.modifier.access.control",
 				"storage.modifier.static.cs",
+				"keyword.operator.expression.new.cs",
 			],
 			"settings": {
 				"fontStyle": "italic",
