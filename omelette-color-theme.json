@@ -204,6 +204,8 @@
 			"name": "grey",
 			"scope": [
 				"punctuation",
+				////////////////////////// PYTHON
+				"constant.other.ellipsis.python",
 				////////////////////////// RUST
 				"keyword.operator.namespace.rust",
 				"keyword.operator.access.dot.rust",
@@ -259,7 +261,6 @@
 				"keyword.control",
 				"storage.type.modifier.access.control",
 				////////////////////////// PYTHON
-				"constant.other.ellipsis.python",
 				"keyword.control.import.python",
 				"keyword.control.flow.python",
 				"keyword.operator.logical.python",
