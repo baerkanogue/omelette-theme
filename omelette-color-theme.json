@@ -172,6 +172,7 @@
 		{
 			"name": "grey italic",
 			"scope": [
+				"comment",
 				"comment.line.double-slash",
 				"comment.block",
 				////////////////////////// PYTHON
@@ -229,6 +230,8 @@
 				"storage.type.accessor.set.cs",
 				"storage.modifier.static.cs",
 				"keyword.operator.expression.new.cs",
+				////////////////////////// MD
+				"markup.italic.markdown",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -262,6 +265,8 @@
 				"string.quoted.single.python",
 				"string.quoted.double.python",
 				"meta.fstring.python",
+				////////////////////////// MD
+				"meta.link.inline.markdown"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -288,6 +293,8 @@
 				"entity.name.function.cs",
 				////////////////////////// BASH
 				"entity.name.command.shell",
+				////////////////////////// MD
+				"entity.name.section.markdown",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -324,6 +331,8 @@
 				////////////////////////// C#
 				"entity.name.type.interface.cs",
 				"entity.name.type.class.cs",
+				////////////////////////// MD
+				"markup.bold.markdown",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -354,6 +363,8 @@
 			"name": "purple",
 			"scope": [
 				"constant",
+				////////////////////////// MD
+				"string.other.link.title.markdown",
 			],
 			"settings": {
 				"fontStyle": "",
