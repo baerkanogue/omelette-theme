@@ -262,6 +262,7 @@
 				"constant.other.ellipsis.python",
 				"keyword.control.import.python",
 				"keyword.control.flow.python",
+				"keyword.operator.logical.python",
 				////////////////////////// C/C++
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
