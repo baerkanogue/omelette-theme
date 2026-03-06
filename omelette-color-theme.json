@@ -230,7 +230,7 @@
 			}
 		},
 		{
-			"name": "orange italic",
+			"name": "orange",
 			"scope": [
 				"variable.parameter.function.language.python",
 				"variable.parameter.function.language.c",
@@ -240,7 +240,7 @@
 				"variable.parameter.function-call.python",
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#ffa770"
 			}
 		},
