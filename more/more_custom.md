@@ -9,3 +9,5 @@ Paste them via the command palette: *`Ctrl+P → Preferences: Open User Settings
 - Error higlighting: *[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)*
 
 ![full_screen](./full_page.png)
+
+Click [here](https://coolors.co/ffffff-898989-232323-fc618d-ffa770-ffe69a-8fe09e-9694ff-e1aaff) to see the color palette.
