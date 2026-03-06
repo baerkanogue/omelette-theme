@@ -207,6 +207,7 @@
 		{
 			"name": "red italic",
 			"scope": [
+				"constant.other.ellipsis.python",
 				"storage.type.var.cs",
 				"keyword.other.directive.using.cs",
 				"keyword.control.directive.include.c",
