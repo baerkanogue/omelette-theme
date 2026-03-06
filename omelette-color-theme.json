@@ -2,7 +2,7 @@
 	"name": "omelette",
 	"colors": {
 		////////////////////////////////////////// TOP LEVEL
-		"editor.background": "#232323",
+		"editor.background": "#202020",
 		"editor.foreground": "#ffffff",
 		"focusBorder": "#00000000",
 		"progressBar.background": "#ffe69a",
@@ -13,7 +13,7 @@
 		"button.background": "#505050",
 		////////////////////////////////////////// BADGE
 		"activityBarBadge.background": "#ffe69a",
-		"activityBarBadge.foreground": "#232323",
+		"activityBarBadge.foreground": "#202020",
 		////////////////////////////////////////// SIDE BAR
 		"sideBarTitle.foreground": "#999999",
 		"sideBar.foreground": "#999999",
@@ -47,17 +47,21 @@
 		"statusBarItem.warningForeground": "#ffa770",
 		////////////////////////////////////////// GUTTER
 		"editorGutter.modifiedBackground": "#ffa770",
+		"editorGutter.modifiedSecondaryBackground": "#ffa770",
 		"editorGutter.addedBackground": "#8fe09e",
+		"editorGutter.addedSecondaryBackground": "#8fe09e",
 		"editorGutter.deletedBackground": "#fc618d",
+		"editorGutter.deletedSecondaryBackground": "#fc618d",
 		"debugIcon.breakpointForeground": "#fc618d",
 		////////////////////////////////////////// DIFF EDITOR
 		"diffEditor.insertedLineBackground": "#00000000",
 		"diffEditor.removedLineBackground": "#fc618d30",
 		////////////////////////////////////////// TABS
-		"editorGroupHeader.tabsBackground": "#222222",
-		"tab.inactiveBackground": "#222222",
+		"editorGroupHeader.tabsBackground": "#202020",
+		"tab.inactiveBackground": "#202020",
 		"tab.hoverForeground": "#f7f1ff",
 		"tab.activeBorder": "#fce566",
+		"tab.border": "#202020",
 		////////////////////////////////////////// SELECTION
 		"editor.selectionBackground": "#4646465e",
 		"editor.lineHighlightBackground": "#2a2a2a",
@@ -83,7 +87,7 @@
 		"editorSuggestWidget.selectedBackground": "#2e2e2e",
 		"editorSuggestWidget.foreground": "#8b8b8b",
 		////////////////////////////////////////// LISTS
-		"list.inactiveSelectionBackground": "#232323",
+		"list.inactiveSelectionBackground": "#202020",
 		"list.inactiveSelectionForeground": "#d7d7d7",
 		"list.activeSelectionForeground": "#ffe69a",
 		"list.activeSelectionBackground": "#2e2e2e",
@@ -149,6 +153,21 @@
 		"terminal.ansiBrightCyan": "#8ce8ff",
 		"terminal.ansiWhite": "#e5e5e5",
 		"terminal.ansiBrightWhite": "#e5e5e5",
+		////////////////////////////////////////// INLAY HINT
+		"editorInlayHint.background": "#2c2c2c",
+		"editorInlayHint.foreground": "#898989",
+		"editorInlayHint.typeForeground": "#9694ffd5",
+		"editorInlayHint.parameterForeground": "#ffa770d5",
+		////////////////////////////////////////// CODE LENS
+		"editorCodeLens.foreground": "#898989",
+		"peekViewEditor.background": "#1E1E1E",
+		////////////////////////////////////////// PEEK VIEW
+		"peekViewEditorGutter.background": "#1c1c1c",
+		"peekViewTitle.background": "#1c1c1c",
+		"peekViewTitleLabel.foreground": "#e5e5e5",
+		"peekViewResult.background": "#1c1c1c",
+		"peekViewResult.selectionBackground": "#4c4c4c",
+		"peekView.border": "#3e3e3ed5"
 	},
 	"tokenColors": [
 		{
@@ -163,6 +182,9 @@
 			"name": "grey",
 			"scope": [
 				"punctuation",
+				////////////////////////// RUST
+				"keyword.operator.namespace.rust",
+				"keyword.operator.access.dot.rust",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -211,6 +233,7 @@
 		{
 			"name": "red italic",
 			"scope": [
+				"storage.modifier",
 				"keyword.control",
 				"storage.type.modifier.access.control",
 				////////////////////////// PYTHON
@@ -221,6 +244,7 @@
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
 				"keyword.other.using.directive.cpp",
+				"keyword.other.typedef.c",
 				////////////////////////// C#
 				"storage.type.var.cs",
 				"keyword.other.directive.using.cs",
@@ -230,6 +254,11 @@
 				"storage.type.accessor.set.cs",
 				"storage.modifier.static.cs",
 				"keyword.operator.expression.new.cs",
+				"storage.modifier.const.cs",
+				////////////////////////// RUST
+				"keyword.other.rust",
+				"storage.type.rust",
+				"storage.modifier.mut.rust",
 				////////////////////////// MD
 				"markup.italic.markdown",
 			],
@@ -289,10 +318,14 @@
 				"entity.name.function.call.cpp",
 				"entity.name.function.definition.special.constructor.cpp",
 				"entity.name.function.member.cpp",
+				"entity.name.function.preprocessor.c",
 				////////////////////////// C#
 				"entity.name.function.cs",
 				////////////////////////// BASH
 				"entity.name.command.shell",
+				////////////////////////// RUST
+				"entity.name.function.rust",
+				"entity.name.function.macro.rust",
 				////////////////////////// MD
 				"entity.name.section.markdown",
 			],
@@ -323,7 +356,6 @@
 				"storage.type.class.c",
 				"storage.type.built-in.c",
 				"storage.type.built-in.primitive.c",
-				"storage.type.struct.c",
 				"entity.name.type.c",
 				"entity.name.type.cpp",
 				"storage.type.primitive.cpp",
@@ -349,10 +381,13 @@
 				"storage.type.class.python",
 				"storage.type.string.python",
 				////////////////////////// C/C++
+				"storage.type.struct.c",
 				"storage.type.function.c",
 				"entity.name.type.parameter.cpp",
 				////////////////////////// C#
 				"storage.type.interface.cs",
+				////////////////////////// RUST
+				"keyword.other.fn.rust",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -369,6 +404,14 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#e1aaff"
+			}
+		},
+		{
+			"name": "debug color",
+			"scope": [],
+			"settings": {
+				"fontStyle": "italic bold underline strikethrough",
+				"foreground": "#ff00d9"
 			}
 		},
 	]

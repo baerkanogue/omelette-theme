@@ -1,7 +1,7 @@
 **Omelette** – a dark theme with colorful, muted syntax. Mid-saturation colors ensure clarity and contrast without straining the eyes, keeping code readable and visually pleasant.
 
 Compatible with **VSCodium** and **VSCode**.
-Made for **Python**, but also compatible with **C**, **C++**, **C#**, **Markdown** and **bash**.
+Made for **Python**, but also compatible with **C**, **C++**, **C#**, **Rust**, **Markdown** and **bash**.
 
 ![front](./imgs/front.png)
 
