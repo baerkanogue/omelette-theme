@@ -172,14 +172,16 @@
 		{
 			"name": "grey italic",
 			"scope": [
+				"comment.line.double-slash",
+				"comment.block",
+				////////////////////////// PYTHON
 				"string.quoted.docstring.multi.python",
 				"variable.language.special.self.python",
 				"variable.language.special.cls.python",
 				"variable.parameter.function.language.special.self.python",
 				"variable.parameter.function.language.special.cls.python",
 				"comment.line.number-sign.python",
-				"comment.line.double-slash",
-				"comment.block",
+				////////////////////////// C/C++
 				"entity.name.scope-resolution.parameter.cpp",
 				"entity.name.scope-resolution.cpp",
 			],
@@ -192,6 +194,7 @@
 			"name": "red",
 			"scope": [
 				"keyword.operator",
+				////////////////////////// PYTHON
 				"punctuation.definition.arguments.begin.python",
 				"punctuation.definition.arguments.end.python",
 				"punctuation.definition.list.begin.python",
@@ -207,20 +210,23 @@
 		{
 			"name": "red italic",
 			"scope": [
+				"keyword.control",
+				"storage.type.modifier.access.control",
+				////////////////////////// PYTHON
 				"constant.other.ellipsis.python",
-				"storage.type.var.cs",
-				"keyword.other.directive.using.cs",
+				"keyword.control.import.python",
+				"keyword.control.flow.python",
+				////////////////////////// C/C++
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
 				"keyword.other.using.directive.cpp",
-				"keyword.control.import.python",
-				"keyword.control.flow.python",
-				"keyword.control",
+				////////////////////////// C#
+				"storage.type.var.cs",
+				"keyword.other.directive.using.cs",
 				"storage.modifier.public.cs",
 				"storage.modifier.private.cs",
 				"storage.type.accessor.get.cs",
 				"storage.type.accessor.set.cs",
-				"storage.type.modifier.access.control",
 				"storage.modifier.static.cs",
 				"keyword.operator.expression.new.cs",
 			],
@@ -232,12 +238,15 @@
 		{
 			"name": "orange",
 			"scope": [
+				////////////////////////// PYTHON
 				"variable.parameter.function.language.python",
+				"variable.parameter.function-call.python",
+				////////////////////////// C/C++
 				"variable.parameter.function.language.c",
 				"variable.parameter.probably.c",
 				"variable.parameter.cpp",
+				////////////////////////// C#
 				"entity.name.variable.parameter.cs",
-				"variable.parameter.function-call.python",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -247,10 +256,11 @@
 		{
 			"name": "yellow",
 			"scope": [
-				"string.quoted.single.python",
-				"string.quoted.double.python",
 				"string.quoted.single",
 				"string.quoted.double",
+				////////////////////////// PYTHON
+				"string.quoted.single.python",
+				"string.quoted.double.python",
 				"meta.fstring.python",
 			],
 			"settings": {
@@ -261,18 +271,23 @@
 		{
 			"name": "green",
 			"scope": [
+				////////////////////////// PYTHON
 				"entity.name.function.python",
-				"entity.name.function.c",
-				"entity.name.function.cs",
+				"entity.name.function.decorator.python",
 				"meta.function-call.generic.python",
-				"meta.function-call.generic.c",
 				"support.function.magic.python",
+				"support.function.builtin.python",
+				////////////////////////// C/C++
+				"entity.name.function.c",
+				"meta.function-call.generic.c",
 				"entity.name.function.definition.cpp",
 				"entity.name.function.call.cpp",
 				"entity.name.function.definition.special.constructor.cpp",
 				"entity.name.function.member.cpp",
-				"support.function.builtin.python",
-				"entity.name.function.decorator.python"
+				////////////////////////// C#
+				"entity.name.function.cs",
+				////////////////////////// BASH
+				"entity.name.command.shell",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -282,30 +297,33 @@
 		{
 			"name": "blue",
 			"scope": [
-				"entity.name.type.class.python",
-				"entity.name.type.class.cs",
-				"support.type.python",
 				"keyword.type",
-				"storage.type.primitive.cpp",
-				"storage.type.class.c",
-				"storage.type.built-in.c",
-				"storage.type.built-in.primitive.c",
-				"entity.name.type.interface.cs",
-				"storage.type.struct.c",
-				"entity.name.type.class.cpp",
-				"support.type.exception.python",
-				"entity.name.type.cpp",
-				"entity.name.type.c",
+				"support.class",
+				"support.type",
 				"entity.name.type.class.reference",
 				"entity.name.type",
 				"entity.name.namespace",
 				"entity.name.class",
-				"support.class",
-				"support.type",
 				"entity.name.type.class",
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
 				"entity.name.class",
+				////////////////////////// PYTHON
+				"entity.name.type.class.python",
+				"support.type.exception.python",
+				"support.type.python",
+				////////////////////////// C/C++
+				"storage.type.class.c",
+				"storage.type.built-in.c",
+				"storage.type.built-in.primitive.c",
+				"storage.type.struct.c",
+				"entity.name.type.c",
+				"entity.name.type.cpp",
+				"storage.type.primitive.cpp",
+				"entity.name.type.class.cpp",
+				////////////////////////// C#
+				"entity.name.type.interface.cs",
+				"entity.name.type.class.cs",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -315,14 +333,17 @@
 		{
 			"name": "blue italic",
 			"scope": [
+				"storage.type.class",
+				"storage.type.namespace",
+				////////////////////////// PYTHON
 				"storage.type.function.python",
-				"storage.type.function.c",
 				"storage.type.class.python",
 				"storage.type.string.python",
+				////////////////////////// C/C++
+				"storage.type.function.c",
 				"entity.name.type.parameter.cpp",
-				"storage.type.class",
+				////////////////////////// C#
 				"storage.type.interface.cs",
-				"storage.type.namespace",
 			],
 			"settings": {
 				"fontStyle": "italic",
