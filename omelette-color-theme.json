@@ -62,9 +62,10 @@
 		"tab.hoverForeground": "#f7f1ff",
 		"tab.activeBorder": "#fce566",
 		"tab.border": "#202020",
+		"tab.dragAndDropBorder": "#999999",
 		////////////////////////////////////////// SELECTION
 		"editor.selectionBackground": "#4646465e",
-		"editor.lineHighlightBackground": "#2a2a2a",
+		"editor.lineHighlightBackground": "#292929",
 		"editor.inactiveSelectionBackground": "#3333337e",
 		"editor.findMatchHighlightBackground": "#494949aa",
 		"editor.wordHighlightStrongBackground": "#00000000",
@@ -167,7 +168,28 @@
 		"peekViewTitleLabel.foreground": "#e5e5e5",
 		"peekViewResult.background": "#1c1c1c",
 		"peekViewResult.selectionBackground": "#4c4c4c",
-		"peekView.border": "#3e3e3ed5"
+		"peekView.border": "#3e3e3ed5",
+		////////////////////////////////////////// DEBUG TOOLTIP
+		"debugIcon.startForeground": "#8fe09e",
+		"debugIcon.continueForeground": "#e1aaff",
+		"debugIcon.pauseForeground": "#e1aaff",
+		"debugIcon.stepOverForeground": "#9694ff",
+		"debugIcon.stepIntoForeground": "#8fe09e",
+		"debugIcon.stepOutForeground": "#ffe69a",
+		"debugIcon.restartForeground": "#ffa770",
+		"debugIcon.stopForeground": "#fc618d",
+		"debugToolBar.background": "#202020",
+		"debugToolBar.border": "#3e3e3ed5",
+		////////////////////////////////////////// DEBUG
+		"editor.stackFrameHighlightBackground": "#ffa77010",
+		"editor.inlineValuesForeground": "#888888",
+		"editor.inlineValuesBackground": "#ffa77020",
+		"debugExceptionWidget.background": "#ff000010",
+		"debugExceptionWidget.border": "#444444",
+		"debugIcon.breakpointCurrentStackframeForeground": "#ffe69a",
+		// "editor.focusedStackFrameHighlightBackground": "#ffa770",
+		// "editorError.background": "#ff000020",
+		// "debugIcon.breakpointStackframeForeground": "#73db4091",
 	},
 	"tokenColors": [
 		{
@@ -295,7 +317,8 @@
 				"string.quoted.double.python",
 				"meta.fstring.python",
 				////////////////////////// MD
-				"meta.link.inline.markdown"
+				"meta.link.inline.markdown",
+				"markup.underline.link.image.markdown",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -400,6 +423,7 @@
 				"constant",
 				////////////////////////// MD
 				"string.other.link.title.markdown",
+				"string.other.link.description.markdown",
 			],
 			"settings": {
 				"fontStyle": "",
