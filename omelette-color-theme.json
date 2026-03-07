@@ -209,6 +209,10 @@
 				////////////////////////// RUST
 				"keyword.operator.namespace.rust",
 				"keyword.operator.access.dot.rust",
+				"keyword.operator.key-value.rust",
+				"keyword.operator.arrow.skinny.rust",
+				"punctuation.definition.lifetime.rust",
+				"keyword.operator.range.rust",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -265,10 +269,11 @@
 				"keyword.control.flow.python",
 				"keyword.operator.logical.python",
 				////////////////////////// C/C++
+				"keyword.other.typedef.c",
 				"keyword.control.directive.include.c",
+				"keyword.other.typedef.cpp",
 				"keyword.control.directive.include.cpp",
 				"keyword.other.using.directive.cpp",
-				"keyword.other.typedef.c",
 				////////////////////////// C#
 				"storage.type.var.cs",
 				"keyword.other.directive.using.cs",
@@ -339,11 +344,12 @@
 				////////////////////////// C/C++
 				"entity.name.function.c",
 				"meta.function-call.generic.c",
+				"entity.name.function.preprocessor.c",
+				"keyword.operator.sizeof.c",
 				"entity.name.function.definition.cpp",
 				"entity.name.function.call.cpp",
 				"entity.name.function.definition.special.constructor.cpp",
 				"entity.name.function.member.cpp",
-				"entity.name.function.preprocessor.c",
 				////////////////////////// C#
 				"entity.name.function.cs",
 				////////////////////////// BASH
@@ -408,6 +414,7 @@
 				////////////////////////// C/C++
 				"storage.type.struct.c",
 				"storage.type.function.c",
+				"storage.type.struct.cpp",
 				"entity.name.type.parameter.cpp",
 				////////////////////////// C#
 				"storage.type.interface.cs",
@@ -423,6 +430,8 @@
 			"name": "purple",
 			"scope": [
 				"constant",
+				////////////////////////// C/C++
+				"entity.name.function.preprocessor.c",
 				////////////////////////// MD
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
