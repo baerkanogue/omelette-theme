@@ -26,29 +26,14 @@
     "window.menuBarVisibility": "compact",
     "window.commandCenter": false,
     "workbench.reduceMotion": "off",
-    "errorLens.fontStyleItalic": true,
-    "errorLens.messageBackgroundMode": "message",
-    "errorLens.padding": "1",
-    "errorLens.codeLensLength": {
-        "min": 0
-    },
-    "errorLens.messageMaxChars": 60,
-    "errorLens.border": [
-        "1px dashed #fc618d",
-        "1px dashed #ffa770",
-        "1px dashed",
-        "1px dashed"
-    ],
-    "outline.collapseItems": "alwaysCollapse",
-    "editor.smoothScrolling": true,
     "errorLens.decorations": {
         "errorMessage": {
-            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 0.8ch;",
+            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 1.0ch;",
             "color": "#fc618d",
             "fontWeight": "bold"
         },
         "warningMessage": {
-            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 0.8ch;",
+            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 1.0ch;",
             "color": "#ffa770",
             "fontWeight": "bold"
         }
@@ -60,5 +45,18 @@
         "messageEnabled": false,
         "sourceCodeEnabled": true,
         "buttonsEnabled": false
-    }
+    },
+    "errorLens.fontStyleItalic": true,
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.padding": "1",
+    "errorLens.codeLensLength": {
+        "min": 0
+    },
+    "errorLens.messageMaxChars": 60,
+    "errorLens.border": [
+        "1px dashed",
+        "1px dashed",
+        "1px dashed",
+        "1px dashed"
+    ]
 }
