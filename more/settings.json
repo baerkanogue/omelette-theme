@@ -34,11 +34,31 @@
     },
     "errorLens.messageMaxChars": 60,
     "errorLens.border": [
-        "1px dashed",
-        "1px dashed",
+        "1px dashed #fc618d",
+        "1px dashed #ffa770",
         "1px dashed",
         "1px dashed"
     ],
     "outline.collapseItems": "alwaysCollapse",
-    "editor.smoothScrolling": true
+    "editor.smoothScrolling": true,
+    "errorLens.decorations": {
+        "errorMessage": {
+            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 0.8ch;",
+            "color": "#fc618d",
+            "fontWeight": "bold"
+        },
+        "warningMessage": {
+            "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 0.8ch;",
+            "color": "#ffa770",
+            "fontWeight": "bold"
+        }
+    },
+    "errorLens.statusBarColorsEnabled": true,
+    "errorLens.statusBarIconsEnabled": true,
+    "errorLens.statusBarIconsUseBackground": false,
+    "errorLens.editorHoverPartsEnabled": {
+        "messageEnabled": false,
+        "sourceCodeEnabled": true,
+        "buttonsEnabled": false
+    }
 }
