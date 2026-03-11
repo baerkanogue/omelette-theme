@@ -60,7 +60,7 @@
 		"editorGroupHeader.tabsBackground": "#202020",
 		"tab.inactiveBackground": "#202020",
 		"tab.hoverForeground": "#f7f1ff",
-		"tab.activeBorder": "#fce566",
+		"tab.activeBorder": "#ffe69a",
 		"tab.border": "#202020",
 		"tab.dragAndDropBorder": "#999999",
 		////////////////////////////////////////// SELECTION
@@ -112,8 +112,10 @@
 		"editorBracketHighlight.foreground4": "#8fe09e",
 		"editorBracketHighlight.foreground5": "#9694ff",
 		"editorBracketHighlight.foreground6": "#e1aaff",
-		////////////////////////////////////////// TERMINAL
-		"terminal.foreground": "#f7f1ff",
+		////////////////////////////////////////// PANEL
+		"panelTitle.activeBorder": "#ffe69a",
+		"panelTitle.inactiveForeground": "#8b8b8b",
+		"panelTitle.activeForeground": "#d7d7d7",
 		////////////////////////////////////////// GIT
 		"gitDecoration.addedResourceForeground": "#8fe09e",
 		"gitDecoration.modifiedResourceForeground": "#ffa770",
@@ -138,6 +140,7 @@
 		"symbolIcon.operatorForeground": "#fc618d",
 		"symbolIcon.keywordForeground": "#fc618d",
 		////////////////////////////////////////// TERMINAL
+		"terminal.foreground": "#f7f1ff",
 		"terminal.ansiBlack": "#8b8b8b",
 		"terminal.ansiBrightBlack": "#8b8b8b",
 		"terminal.ansiRed": "#fc618d",
@@ -154,6 +157,7 @@
 		"terminal.ansiBrightCyan": "#8ce8ff",
 		"terminal.ansiWhite": "#e5e5e5",
 		"terminal.ansiBrightWhite": "#e5e5e5",
+		"terminal.tab.activeBorder": "#ffe69a",
 		////////////////////////////////////////// INLAY HINT
 		"editorInlayHint.background": "#2c2c2c",
 		"editorInlayHint.foreground": "#898989",
