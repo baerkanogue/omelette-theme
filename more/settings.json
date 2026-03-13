@@ -38,9 +38,17 @@
             "fontWeight": "bold"
         }
     },
-    "errorLens.statusBarColorsEnabled": true,
+    "errorLens.statusBarColorsEnabled": false,
     "errorLens.statusBarIconsEnabled": true,
-    "errorLens.statusBarIconsUseBackground": false,
+    "workbench.colorCustomizations": {
+        "statusBarItem.errorForeground": "#fc618d",
+        "statusBarItem.errorHoverForeground": "#202020",
+        "statusBarItem.errorHoverBackground": "#fc618d",
+        "statusBarItem.warningForeground": "#ffa770",
+        "statusBarItem.warningHoverForeground": "#202020",
+        "statusBarItem.warningHoverBackground": "#ffa770"
+    },
+    "errorLens.statusBarIconsUseBackground": true,
     "errorLens.editorHoverPartsEnabled": {
         "messageEnabled": false,
         "sourceCodeEnabled": true,
