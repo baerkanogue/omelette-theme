@@ -190,7 +190,7 @@
         "debugIcon.restartForeground": "#ffa770",
         "debugIcon.disconnectForeground": "#fc618d",
         "debugIcon.stopForeground": "#fc618d",
-        "debugToolBar.background": "#202020",
+        "debugToolBar.background": "#1c1c1c",
         "debugToolBar.border": "#3e3e3ed5",
         ////////////////////////////////////////// DEBUG
         "editor.stackFrameHighlightBackground": "#ffa77010",
@@ -198,10 +198,7 @@
         "editor.inlineValuesBackground": "#ffa77020",
         "debugExceptionWidget.background": "#ff000010",
         "debugExceptionWidget.border": "#444444",
-        "debugIcon.breakpointCurrentStackframeForeground": "#ffe69a",
-        // "editor.focusedStackFrameHighlightBackground": "#ffa770",
-        // "editorError.background": "#ff000020",
-        // "debugIcon.breakpointStackframeForeground": "#73db4091",
+        "debugIcon.breakpointCurrentStackframeForeground": "#fc618d",
         ////////////////////////////////////////// OVERVIEW RULER
         "editorOverviewRuler.errorForeground": "#fc618d",
         "editorOverviewRuler.warningForeground": "#ffa770",
@@ -209,6 +206,8 @@
         "editorOverviewRuler.addedForeground": "#8fe09e",
         "editorOverviewRuler.modifiedForeground": "#ffa770",
         "editorOverviewRuler.deletedForeground": "#fc618d",
+        "editorOverviewRuler.background": "#202020",
+        "editorOverviewRuler.border": "#00000000",
     },
     "tokenColors": [
         {
