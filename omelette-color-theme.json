@@ -128,10 +128,13 @@
         "gitDecoration.ignoredResourceForeground": "#636363",
         "gitDecoration.conflictingResourceForeground": "#f3b6ff",
         "gitDecoration.submoduleResourceForeground": "#ffffff",
+        "scmGraph.historyItemRemoteRefColor": "#fc618d",
+        "scmGraph.historyItemRefColor": "#9694ff",
         ////////////////////////////////////////// ERRORS
         "editorError.foreground": "#fc618d",
         "editorWarning.foreground": "#ffa770",
         "editorInfo.foreground": "#8fe09e",
+        "editorHint.foreground": "#9694ff",
         ////////////////////////////////////////// SUGGEST ICONS
         "symbolIcon.classForeground": "#9694ff",
         "symbolIcon.objectForeground": "#9694ff",
