@@ -79,6 +79,7 @@
         "minimap.errorHighlight": "#fc618d50",
         "minimap.warningHighlight": "#ffa77050",
         "minimap.infoHighlight": "#8fe09e50",
+        "minimap.background": "#00000000",
         ////////////////////////////////////////// HOVER WIDGET
         "editorHoverWidget.foreground": "#f7f1ff",
         ////////////////////////////////////////// SUGGEST WIDGET
