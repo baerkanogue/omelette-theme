@@ -112,7 +112,7 @@
         "editorBracketHighlight.foreground3": "#ffe69a",
         "editorBracketHighlight.foreground4": "#8fe09e",
         "editorBracketHighlight.foreground5": "#9694ff",
-        "editorBracketHighlight.foreground6": "#e1aaff",
+        "editorBracketHighlight.foreground6": "#ecb3ff",
         ////////////////////////////////////////// PANEL
         "panelTitle.activeBorder": "#ffe69a",
         "panelTitle.inactiveForeground": "#8b8b8b",
@@ -124,9 +124,9 @@
         "gitDecoration.stageModifiedResourceForeground": "#ffa770",
         "gitDecoration.deletedResourceForeground": "#fc618d",
         "gitDecoration.stageDeletedResourceForeground": "#fc618d",
-        "gitDecoration.renamedResourceForeground": "#e1aaff",
+        "gitDecoration.renamedResourceForeground": "#ecb3ff",
         "gitDecoration.ignoredResourceForeground": "#636363",
-        "gitDecoration.conflictingResourceForeground": "#e1aaff",
+        "gitDecoration.conflictingResourceForeground": "#ecb3ff",
         "gitDecoration.submoduleResourceForeground": "#ffffff",
         ////////////////////////////////////////// ERRORS
         "editorError.foreground": "#fc618d",
@@ -139,8 +139,8 @@
         "symbolIcon.functionForeground": "#8fe09e",
         "symbolIcon.variableForeground": "#ffa770",
         "symbolIcon.propertyForeground": "#ffa770",
-        "symbolIcon.booleanForeground": "#e1aaff",
-        "symbolIcon.constantForeground": "#e1aaff",
+        "symbolIcon.booleanForeground": "#ecb3ff",
+        "symbolIcon.constantForeground": "#ecb3ff",
         "symbolIcon.operatorForeground": "#fc618d",
         "symbolIcon.keywordForeground": "#fc618d",
         ////////////////////////////////////////// TERMINAL
@@ -155,8 +155,8 @@
         "terminal.ansiBrightYellow": "#ffe69a",
         "terminal.ansiBlue": "#9694ff",
         "terminal.ansiBrightBlue": "#9694ff",
-        "terminal.ansiMagenta": "#e1aaff",
-        "terminal.ansiBrightMagenta": "#e1aaff",
+        "terminal.ansiMagenta": "#ecb3ff",
+        "terminal.ansiBrightMagenta": "#ecb3ff",
         "terminal.ansiCyan": "#8ce8ff",
         "terminal.ansiBrightCyan": "#8ce8ff",
         "terminal.ansiWhite": "#e5e5e5",
@@ -179,8 +179,8 @@
         "peekView.border": "#3e3e3ed5",
         ////////////////////////////////////////// DEBUG TOOLTIP
         "debugIcon.startForeground": "#8fe09e",
-        "debugIcon.continueForeground": "#e1aaff",
-        "debugIcon.pauseForeground": "#e1aaff",
+        "debugIcon.continueForeground": "#ecb3ff",
+        "debugIcon.pauseForeground": "#ecb3ff",
         "debugIcon.stepOverForeground": "#9694ff",
         "debugIcon.stepIntoForeground": "#8fe09e",
         "debugIcon.stepOutForeground": "#ffe69a",
@@ -454,7 +454,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#e1aaff"
+                "foreground": "#ecb3ff"
             }
         },
         {
