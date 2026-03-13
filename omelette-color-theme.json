@@ -185,6 +185,7 @@
         "debugIcon.stepIntoForeground": "#8fe09e",
         "debugIcon.stepOutForeground": "#ffe69a",
         "debugIcon.restartForeground": "#ffa770",
+        "debugIcon.disconnectForeground": "#fc618d",
         "debugIcon.stopForeground": "#fc618d",
         "debugToolBar.background": "#202020",
         "debugToolBar.border": "#3e3e3ed5",
