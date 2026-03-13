@@ -168,7 +168,7 @@
 		"editorInlayHint.parameterForeground": "#ffa770d5",
 		////////////////////////////////////////// CODE LENS
 		"editorCodeLens.foreground": "#898989",
-		"peekViewEditor.background": "#1E1E1E",
+		"peekViewEditor.background": "#1c1c1c",
 		////////////////////////////////////////// PEEK VIEW
 		"peekViewEditorGutter.background": "#1c1c1c",
 		"peekViewTitle.background": "#1c1c1c",
@@ -197,6 +197,13 @@
 		// "editor.focusedStackFrameHighlightBackground": "#ffa770",
 		// "editorError.background": "#ff000020",
 		// "debugIcon.breakpointStackframeForeground": "#73db4091",
+		////////////////////////////////////////// OVERVIEW RULER
+		"editorOverviewRuler.errorForeground": "#fc618d",
+		"editorOverviewRuler.warningForeground": "#ffa770",
+		"editorOverviewRuler.infoForeground": "#8fe09e",
+		"editorOverviewRuler.addedForeground": "#8fe09e",
+		"editorOverviewRuler.modifiedForeground": "#ffa770",
+		"editorOverviewRuler.deletedForeground": "#fc618d",
 	},
 	"tokenColors": [
 		{

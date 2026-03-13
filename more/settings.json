@@ -39,14 +39,18 @@
         }
     },
     "errorLens.statusBarColorsEnabled": false,
-    "errorLens.statusBarIconsEnabled": true,
+    "errorLens.statusBarIconsEnabled": false,
     "workbench.colorCustomizations": {
         "statusBarItem.errorForeground": "#fc618d",
         "statusBarItem.errorHoverForeground": "#202020",
         "statusBarItem.errorHoverBackground": "#fc618d",
         "statusBarItem.warningForeground": "#ffa770",
         "statusBarItem.warningHoverForeground": "#202020",
-        "statusBarItem.warningHoverBackground": "#ffa770"
+        "statusBarItem.warningHoverBackground": "#ffa770",
+        "statusBar.debuggingBackground": "#ffa770",
+        "statusBar.debuggingForeground": "#1c1c1c",
+        "problemsErrorIcon.foreground": "#fc618d",
+        "problemsWarningIcon.foreground": "#ffa770"
     },
     "errorLens.statusBarIconsUseBackground": true,
     "errorLens.editorHoverPartsEnabled": {
