@@ -40,6 +40,7 @@
         "titleBar.activeBackground": "#1c1c1c",
         "titleBar.inactiveBackground": "#1c1c1c",
         "titleBar.border": "#303030",
+        "titleBar.activeForeground": "#d7d7d7",
         ////////////////////////////////////////// STATUS BAR
         "statusBar.background": "#1c1c1c",
         "statusBar.foreground": "#999999",
