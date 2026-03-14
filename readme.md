@@ -5,7 +5,7 @@ Made for **Python**, but also compatible with **C**, **C++**, **C#**, **Rust**, 
 
 ![front](./imgs/front.png)
 
-To get more customization, **[read this](./more/more_custom.md)**.
+For more customization options, **[read this](./more/more_custom.md)**.
 
 Extension icon by *[Théo Desmaison](https://www.instagram.com/turfboiz/)*.
 
