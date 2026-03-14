@@ -26,6 +26,7 @@
     "window.menuBarVisibility": "compact",
     "window.commandCenter": false,
     "workbench.reduceMotion": "off",
+    "editor.stickyScroll.enabled": false,
     "errorLens.decorations": {
         "errorMessage": {
             "textDecoration": ";background:#202020;border-radius:0.6em;padding:0 1.0ch;",
