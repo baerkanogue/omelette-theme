@@ -2,7 +2,7 @@
 import math
 from time import sleep
 
-rate: float = 3.14
+
 name: str = "Alice"
 flag: bool = True
 
@@ -20,6 +20,7 @@ class Person:
 
     def hello(self):
         print(greet(self.name))
+        sleep(1.0)
 
 
 for i in range(2):

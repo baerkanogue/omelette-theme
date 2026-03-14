@@ -18,6 +18,7 @@
         "sideBarTitle.foreground": "#999999",
         "sideBar.foreground": "#999999",
         "sideBar.background": "#1c1c1c",
+        "sideBar.border": "#3e3e3ed5",
         "sideBarSectionHeader.background": "#1c1c1c",
         ////////////////////////////////////////// ACTIVITY BAR
         "activityBar.foreground": "#d0d0d0",
@@ -35,6 +36,8 @@
         "sideBarSectionHeader.border": "#3e3e3ed5",
         ////////////////////////////////////////// TITLE BAR
         "titleBar.activeBackground": "#1c1c1c",
+        "titleBar.inactiveBackground": "#1c1c1c",
+        "titleBar.border": "#00000000",
         ////////////////////////////////////////// STATUS BAR
         "statusBar.background": "#1c1c1c",
         "statusBar.foreground": "#999999",
@@ -45,6 +48,8 @@
         "statusBarItem.errorForeground": "#fc618d",
         "statusBarItem.warningBackground": "#1c1c1c",
         "statusBarItem.warningForeground": "#ffa770",
+        "statusBar.border": "#3e3e3ed5",
+        "statusBar.focusBorder": "#3e3e3ed5",
         ////////////////////////////////////////// GUTTER
         "editorGutter.modifiedBackground": "#ffa770",
         "editorGutter.modifiedSecondaryBackground": "#ffa770",
@@ -54,15 +59,20 @@
         "editorGutter.deletedSecondaryBackground": "#fc618d",
         "debugIcon.breakpointForeground": "#fc618d",
         ////////////////////////////////////////// DIFF EDITOR
-        "diffEditor.insertedLineBackground": "#00000000",
-        "diffEditor.removedLineBackground": "#fc618d30",
+        "diffEditor.border": "#3e3e3ed5",
+        "diffEditor.insertedLineBackground": "#8fe09e00",
+        "diffEditor.insertedTextBackground": "#8fe09e30",
+        "diffEditor.removedLineBackground": "#fc618d00",
+        "diffEditor.removedTextBackground": "#fc618d30",
+        "diffEditor.diagonalFill": "#3e3e3ed5",
         ////////////////////////////////////////// TABS
-        "editorGroupHeader.tabsBackground": "#202020",
-        "tab.inactiveBackground": "#202020",
+        "editorGroupHeader.tabsBackground": "#1c1c1c",
+        "tab.inactiveBackground": "#1c1c1c",
         "tab.hoverForeground": "#f7f1ff",
         "tab.activeBorder": "#ffe69a",
-        "tab.border": "#202020",
+        "tab.border": "#1c1c1c",
         "tab.dragAndDropBorder": "#999999",
+        "tab.activeBackground": "#1c1c1c",
         ////////////////////////////////////////// SELECTION
         "editor.selectionBackground": "#4646465e",
         "editor.lineHighlightBackground": "#292929",
@@ -438,6 +448,7 @@
             "name": "purple",
             "scope": [
                 "constant.numeric",
+                "constant.language",
                 ////////////////////////// C/C++
                 "entity.name.function.preprocessor.c",
                 ////////////////////////// MD
