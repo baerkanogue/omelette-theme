@@ -234,6 +234,8 @@
                 "comment",
                 "comment.line.double-slash",
                 "comment.block",
+                ////////////////////////// MD
+                "markup.heading.setext",
                 ////////////////////////// PYTHON
                 "constant.other.ellipsis.python",
                 "string.quoted.docstring.multi.python",
@@ -273,6 +275,8 @@
                 "storage.modifier",
                 "keyword.control",
                 "storage.type.modifier.access.control",
+                "entity.name.tag",
+                "keyword.other.definition.ini",
                 ////////////////////////// PYTHON
                 "punctuation.definition.arguments.begin.python",
                 "punctuation.definition.arguments.end.python",
@@ -323,6 +327,8 @@
         {
             "name": "orange",
             "scope": [
+                ////////////////////////// SHELLS
+                "string.unquoted.argument.shell",
                 ////////////////////////// PYTHON
                 "variable.parameter.function.language.python",
                 "variable.parameter.function-call.python",
@@ -332,6 +338,8 @@
                 "variable.parameter.cpp",
                 ////////////////////////// C#
                 "entity.name.variable.parameter.cs",
+                ////////////////////////// MD
+                "markup.raw.block.markdown",
             ],
             "settings": {
                 "fontStyle": "",
@@ -350,6 +358,7 @@
                 ////////////////////////// MD
                 "meta.link.inline.markdown",
                 "markup.underline.link.image.markdown",
+                "markup.inline.raw.string.markdown",
             ],
             "settings": {
                 "fontStyle": "",
@@ -359,6 +368,10 @@
         {
             "name": "green",
             "scope": [
+                ////////////////////////// SHELLS
+                "entity.name.function.shell",
+                "entity.name.function.powershell",
+                "support.function.powershell",
                 ////////////////////////// PYTHON
                 "entity.name.function.python",
                 "entity.name.function.decorator.python",
@@ -405,6 +418,12 @@
                 "entity.name.class",
                 "storage.type.class",
                 "storage.type.namespace",
+                ////////////////////////// SHELLS
+                "constant.other.option.dash.shell",
+                "constant.other.option",
+                "storage.type.function.shell",
+                "entity.other.attribute-name",
+                "storage.type.powershell",
                 ////////////////////////// PYTHON
                 "entity.name.type.class.python",
                 "support.type.exception.python",
@@ -412,6 +431,7 @@
                 "storage.type.function.python",
                 "storage.type.class.python",
                 "storage.type.string.python",
+                "variable.key.dotenv",
                 ////////////////////////// C/C++
                 "storage.type.class.c",
                 "storage.type.built-in.c",
@@ -450,6 +470,8 @@
             "scope": [
                 "constant.numeric",
                 "constant.language",
+                ////////////////////////// PYTHON
+                "property.value.dotenv",
                 ////////////////////////// C/C++
                 "entity.name.function.preprocessor.c",
                 ////////////////////////// MD
