@@ -7,8 +7,9 @@
         "focusBorder": "#00000000",
         "progressBar.background": "#ffe69a",
         "scrollbar.shadow": "#00000000",
-        "contrastBorder": "#3e3e3ed5",
+        // "contrastBorder": "#3e3e3ed5",
         "icon.foreground": "#8b8b8b",
+        "editorStickyScroll.border": "#3e3e3ed5",
         ////////////////////////////////////////// BUTTONS
         "button.background": "#505050",
         ////////////////////////////////////////// BADGE
@@ -37,7 +38,7 @@
         ////////////////////////////////////////// TITLE BAR
         "titleBar.activeBackground": "#1c1c1c",
         "titleBar.inactiveBackground": "#1c1c1c",
-        "titleBar.border": "#00000000",
+        "titleBar.border": "#3e3e3ed5",
         ////////////////////////////////////////// STATUS BAR
         "statusBar.background": "#1c1c1c",
         "statusBar.foreground": "#999999",
@@ -66,13 +67,13 @@
         "diffEditor.removedTextBackground": "#fc618d30",
         "diffEditor.diagonalFill": "#3e3e3ed5",
         ////////////////////////////////////////// TABS
-        "editorGroupHeader.tabsBackground": "#1c1c1c",
-        "tab.inactiveBackground": "#1c1c1c",
+        "editorGroupHeader.tabsBackground": "#202020",
+        "tab.inactiveBackground": "#202020",
         "tab.hoverForeground": "#f7f1ff",
         "tab.activeBorder": "#ffe69a",
-        "tab.border": "#1c1c1c",
+        "tab.border": "#202020",
         "tab.dragAndDropBorder": "#999999",
-        "tab.activeBackground": "#1c1c1c",
+        "tab.activeBackground": "#202020",
         ////////////////////////////////////////// SELECTION
         "editor.selectionBackground": "#4646465e",
         "editor.lineHighlightBackground": "#292929",
