@@ -7,9 +7,10 @@
         "focusBorder": "#00000000",
         "progressBar.background": "#ffe69a",
         "scrollbar.shadow": "#00000000",
-        // "contrastBorder": "#3e3e3ed5",
+        "contrastBorder": "#00000000",
+        "widget.shadow": "#00000040",
         "icon.foreground": "#8b8b8b",
-        "editorStickyScroll.border": "#3e3e3ed5",
+        "editorStickyScroll.border": "#303030",
         ////////////////////////////////////////// BUTTONS
         "button.background": "#505050",
         ////////////////////////////////////////// BADGE
@@ -19,7 +20,7 @@
         "sideBarTitle.foreground": "#999999",
         "sideBar.foreground": "#999999",
         "sideBar.background": "#1c1c1c",
-        "sideBar.border": "#3e3e3ed5",
+        "sideBar.border": "#303030",
         "sideBarSectionHeader.background": "#1c1c1c",
         ////////////////////////////////////////// ACTIVITY BAR
         "activityBar.foreground": "#d0d0d0",
@@ -34,11 +35,11 @@
         "activityBarTop.dropBorder": "#999999",
         "badge.background": "#ffe69a",
         "badge.foreground": "#1c1c1c",
-        "sideBarSectionHeader.border": "#3e3e3ed5",
+        "sideBarSectionHeader.border": "#303030",
         ////////////////////////////////////////// TITLE BAR
         "titleBar.activeBackground": "#1c1c1c",
         "titleBar.inactiveBackground": "#1c1c1c",
-        "titleBar.border": "#3e3e3ed5",
+        "titleBar.border": "#303030",
         ////////////////////////////////////////// STATUS BAR
         "statusBar.background": "#1c1c1c",
         "statusBar.foreground": "#999999",
@@ -49,8 +50,8 @@
         "statusBarItem.errorForeground": "#fc618d",
         "statusBarItem.warningBackground": "#1c1c1c",
         "statusBarItem.warningForeground": "#ffa770",
-        "statusBar.border": "#3e3e3ed5",
-        "statusBar.focusBorder": "#3e3e3ed5",
+        "statusBar.border": "#303030",
+        "statusBar.focusBorder": "#303030",
         ////////////////////////////////////////// GUTTER
         "editorGutter.modifiedBackground": "#ffa770",
         "editorGutter.modifiedSecondaryBackground": "#ffa770",
@@ -60,12 +61,12 @@
         "editorGutter.deletedSecondaryBackground": "#fc618d",
         "debugIcon.breakpointForeground": "#fc618d",
         ////////////////////////////////////////// DIFF EDITOR
-        "diffEditor.border": "#3e3e3ed5",
+        "diffEditor.border": "#303030",
         "diffEditor.insertedLineBackground": "#8fe09e00",
         "diffEditor.insertedTextBackground": "#8fe09e30",
         "diffEditor.removedLineBackground": "#fc618d00",
         "diffEditor.removedTextBackground": "#fc618d30",
-        "diffEditor.diagonalFill": "#3e3e3ed5",
+        "diffEditor.diagonalFill": "#303030",
         ////////////////////////////////////////// TABS
         "editorGroupHeader.tabsBackground": "#202020",
         "tab.inactiveBackground": "#202020",
@@ -114,7 +115,6 @@
         "editorWidget.foreground": "#8b8b8b",
         ////////////////////////////////////////// MISC
         "pickerGroup.foreground": "#8b8b8b",
-        "widget.shadow": "#00000040",
         "settings.modifiedItemIndicator": "#ffe69a",
         "textLink.foreground": "#ffe69a",
         "textLink.activeForeground": "#9694ff",
@@ -192,7 +192,7 @@
         "peekViewTitleLabel.foreground": "#e5e5e5",
         "peekViewResult.background": "#1c1c1c",
         "peekViewResult.selectionBackground": "#4c4c4c",
-        "peekView.border": "#3e3e3ed5",
+        "peekView.border": "#303030",
         ////////////////////////////////////////// DEBUG TOOLTIP
         "debugIcon.startForeground": "#8fe09e",
         "debugIcon.continueForeground": "#f3b6ff",
@@ -204,7 +204,7 @@
         "debugIcon.disconnectForeground": "#fc618d",
         "debugIcon.stopForeground": "#fc618d",
         "debugToolBar.background": "#1c1c1c",
-        "debugToolBar.border": "#3e3e3ed5",
+        "debugToolBar.border": "#303030",
         ////////////////////////////////////////// DEBUG
         "editor.stackFrameHighlightBackground": "#ffa77010",
         "editor.inlineValuesForeground": "#888888",
@@ -223,8 +223,8 @@
         "editorOverviewRuler.border": "#00000000",
         ////////////////////////////////////////// MENUS
         "menu.background": "#282828",
-        "menu.border": "#3e3e3ed5",
-        "menu.separatorBackground": "#3e3e3ed5",
+        "menu.border": "#303030",
+        "menu.separatorBackground": "#303030",
     },
     "tokenColors": [
         {
