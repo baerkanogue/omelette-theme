@@ -337,6 +337,7 @@
                 "variable.parameter.function.language.c",
                 "variable.parameter.probably.c",
                 "variable.parameter.cpp",
+                "constant.other.placeholder.c",
                 ////////////////////////// C#
                 "entity.name.variable.parameter.cs",
                 ////////////////////////// MD
@@ -472,6 +473,7 @@
             "scope": [
                 "constant.numeric",
                 "constant.language",
+                "constant.character.escape",
                 ////////////////////////// PYTHON
                 "property.value.dotenv",
                 ////////////////////////// C/C++
