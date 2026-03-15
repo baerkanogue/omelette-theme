@@ -23,6 +23,7 @@
         "sideBar.border": "#303030",
         "sideBarSectionHeader.background": "#1c1c1c",
         ////////////////////////////////////////// ACTIVITY BAR
+        "activityBar.border":"#303030",
         "activityBar.foreground": "#d0d0d0",
         "activityBar.background": "#1c1c1c",
         "activityBar.inactiveForeground": "#999999",
