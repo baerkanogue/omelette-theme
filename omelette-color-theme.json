@@ -226,6 +226,14 @@
         "menu.background": "#282828",
         "menu.border": "#303030",
         "menu.separatorBackground": "#303030",
+        ////////////////////////////////////////// DEBUG PANEL
+        "debugTokenExpression.string": "#ffe69a",
+        "debugTokenExpression.boolean": "#f3b6ff",
+        "debugTokenExpression.number": "#f3b6ff",
+        "debugTokenExpression.name": "#8fe09e",
+        "debugTokenExpression.type": "#9694ff",
+        "debugTokenExpression.value": "#fff",
+        "debugTokenExpression.error": "#fc618d",
     },
     "tokenColors": [
         {

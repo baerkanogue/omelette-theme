@@ -13,4 +13,4 @@ Click [here](https://coolors.co/ffffff-898989-202020-fc618d-ffa770-ffe69a-8fe09e
 Gallery
 ---
 ![full_screen](../images/full_page.png)
-![full_screen_debug](../images/full_page_debug.png)
+<!-- ![full_screen_debug](../images/full_page_debug.png) -->
