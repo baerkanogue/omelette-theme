@@ -4,7 +4,7 @@
   "version": "0.4.0",
   "displayName": "Omelette",
   "description": "Balanced, colorful code on a dark background.",
-  "icon": "imgs/icon.png",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.100.0"
   },
