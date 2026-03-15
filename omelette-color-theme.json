@@ -425,6 +425,7 @@
                 "storage.type.function.shell",
                 "entity.other.attribute-name",
                 "storage.type.powershell",
+                "keyword.operator.logical.shell",
                 ////////////////////////// PYTHON
                 "entity.name.type.class.python",
                 "support.type.exception.python",
