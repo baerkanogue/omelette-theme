@@ -232,19 +232,14 @@
             "name": "grey",
             "scope": [
                 "punctuation",
-                "comment",
-                "comment.line.double-slash",
-                "comment.block",
                 ////////////////////////// MD
                 "markup.heading.setext",
                 ////////////////////////// PYTHON
                 "constant.other.ellipsis.python",
-                "string.quoted.docstring.multi.python",
                 "variable.language.special.self.python",
                 "variable.language.special.cls.python",
                 "variable.parameter.function.language.special.self.python",
                 "variable.parameter.function.language.special.cls.python",
-                "comment.line.number-sign.python",
                 ////////////////////////// C/C++
                 "entity.name.scope-resolution.parameter.cpp",
                 "entity.name.scope-resolution.cpp",
@@ -263,7 +258,14 @@
         },
         {
             "name": "grey italic",
-            "scope": [],
+            "scope": [
+                "comment",
+                "comment.block",
+                "comment.line.double-slash",
+                "comment.line.number-sign",
+                "string.quoted.docstring.multi",
+                "punctuation.definition.comment",
+            ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#898989"
@@ -374,6 +376,8 @@
                 "entity.name.function.shell",
                 "entity.name.function.powershell",
                 "support.function.powershell",
+                "keyword.command.batchfile",
+                "keyword.other.special-method.batchfile",
                 ////////////////////////// PYTHON
                 "entity.name.function.python",
                 "entity.name.function.decorator.python",
