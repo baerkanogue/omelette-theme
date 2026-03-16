@@ -3,12 +3,7 @@
 Compatible with **VSCodium** and **VSCode**.
 Made for **Python**, but also compatible with **C**, **C++**, **C#**, **Rust**, **XML**, **Markdown**, **Bash** and **Powershell**.
 
-Extension icon by *[Théo Desmaison](https://www.instagram.com/turfboiz/)*.
-
 ![front](./images/front_page.png)
-
-<!-- For more customization options, **[read this](./more/more_custom.md)**. -->
-
 
 ## Installation
 
