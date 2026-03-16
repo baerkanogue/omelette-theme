@@ -156,6 +156,8 @@
         "gitDecoration.submoduleResourceForeground": "#ffffff",
         "scmGraph.historyItemRemoteRefColor": "#fc618d",
         "scmGraph.historyItemRefColor": "#9694ff",
+        "scmGraph.historyItemHoverAdditionsForeground": "#8fe09e",
+        "scmGraph.historyItemHoverDeletionsForeground": "#fc618d",
         ////////////////////////////////////////// ERRORS
         "editorError.foreground": "#fc618d",
         "editorWarning.foreground": "#ffa770",
