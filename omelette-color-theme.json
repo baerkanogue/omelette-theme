@@ -308,6 +308,8 @@
                 "keyword.operator.arrow.skinny.rust",
                 "punctuation.definition.lifetime.rust",
                 "keyword.operator.range.rust",
+                "meta.attribute.rust",
+                "variable.language.self.rust",
             ],
             "settings": {
                 "fontStyle": "",
@@ -477,6 +479,7 @@
                 ////////////////////////// RUST
                 "entity.name.function.rust",
                 "entity.name.function.macro.rust",
+                "entity.name.function.macro.rules.rust",
                 ////////////////////////// MD
                 "entity.name.section.markdown",
             ],
@@ -570,9 +573,20 @@
                 "constant.character.escape",
                 ////////////////////////// PYTHON
                 "property.value.dotenv",
+                "storage.type.number.python",
+                "storage.type.imaginary.number.python",
+                "keyword.codetag.notation.python",
                 ////////////////////////// C/C++
                 "entity.name.function.preprocessor",
+                "keyword.other.unit.suffix",
+                "keyword.other.unit.hexadecimal",
+                "keyword.other.unit.binary",
+                "keyword.other.unit.octal",
+                "keyword.other.unit.user-defined.cpp",
                 "keyword.other.unit.exponent.decimal",
+                ////////////////////////// RUST
+                "keyword.operator.exponent.rust",
+                "keyword.operator.exponent.sign.rust",
                 ////////////////////////// MD
                 "string.other.link.title.markdown",
                 "string.other.link.description.markdown",
@@ -584,18 +598,7 @@
         },
         {
             "name": "purple italic",
-            "scope": [
-                ////////////////////////// PYTHON
-                "storage.type.number.python",
-                "storage.type.imaginary.number.python",
-                "keyword.codetag.notation.python",
-                ////////////////////////// C/C++
-                "keyword.other.unit.suffix",
-                "keyword.other.unit.hexadecimal",
-                "keyword.other.unit.binary",
-                "keyword.other.unit.octal",
-                "keyword.other.unit.user-defined.cpp",
-            ],
+            "scope": [],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#f3b6ff"
