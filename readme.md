@@ -54,12 +54,12 @@ Click [here](https://coolors.co/ffffff-898989-202020-fc618d-ffa770-ffe69a-8fe09e
 |C|Good 🟢|
 |C++|Good 🟢|
 |C#|Good 🟢|
-|Rust|Medium 🟠|
-|Bash|Medium 🟠|
-|Powershell|Medium 🟠|
-|Markdown|Basic 🔴|
-|Batch|Basic 🔴|
-|XML|Basic 🔴|
+|Rust|Medium 🟡|
+|Bash|Medium 🟡|
+|Powershell|Medium 🟡|
+|Markdown|Basic 🟠|
+|Batch|Basic 🟠|
+|XML|Basic 🟠|
 |JS|None ❌|
 |Java|None ❌|
 <!-- |PHP|None ❌| -->
