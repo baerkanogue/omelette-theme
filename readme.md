@@ -5,7 +5,7 @@
 Compatible with **VSCodium** and **VSCode**.
 Made for **Python**, but also compatible with **C**, **C++**, **C#**, **Rust**, and much more *[(see here)](#compatibility)*.
 
-![front](./images/front_page.png)
+![front](./theme/images/front_page.png)
 
 ## Installation
 
@@ -32,7 +32,7 @@ C:\Users\<YourUsername>\.vscode\extensions\
 
 **Custom settings:**
 
-To replicate the exact visuals below, apply the settings in **[settings.json](./more/settings.json)**.
+To replicate the exact visuals below, apply the settings in **[settings.json](./theme/settings.json)**.
 Paste them via the command palette: *`Ctrl+P`* → *`Preferences: Open User Settings (JSON)`*.
 
 **Download:**
@@ -44,7 +44,7 @@ Click [here](https://coolors.co/ffffff-898989-202020-fc618d-ffa770-ffe69a-8fe09e
 
 ## Gallery
 
-![full_screen](./images/full_page.png)
+![full_screen](./theme/images/full_page.png)
 
 ## Compatibility
 
@@ -71,4 +71,4 @@ This theme is inspired by the visual style of *Monokai Pro (Spectrum Filter)*.
 
 It has been **developed entirely from scratch**, without referencing or using any source code, assets, or implementation details from Monokai Pro or any other proprietary work. **All colors, rules, and design decisions were independently selected and manually defined**.
 
-**No generative AI tools were used in the creation of this theme**, with the exception of the sample scripts provided in the *[sample scripts](./samples/)* directory.
+**No generative AI tools were used in the creation of this theme**, with the exception of the sample scripts provided in the *[sample scripts](./theme/samples/)* directory.
