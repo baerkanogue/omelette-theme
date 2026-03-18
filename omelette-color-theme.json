@@ -285,6 +285,12 @@
                 ////////////////////////// C/C++
                 "entity.name.scope-resolution.parameter.cpp",
                 "entity.name.scope-resolution.cpp",
+                "variable.language.this.cpp",
+                "entity.other.attribute.nodiscard.cpp",
+                "entity.other.attribute.deprecated.cpp",
+                "entity.other.attribute.maybe_unused.cpp",
+                ////////////////////////// C#
+                "variable.language.this.cs",
                 ////////////////////////// RUST
                 "keyword.operator.namespace.rust",
                 "keyword.operator.access.dot.rust",
@@ -338,6 +344,14 @@
                 "keyword.other.typedef.cpp",
                 "keyword.control.directive.include.cpp",
                 "keyword.other.using.directive.cpp",
+                "keyword.other.default.destructor.cpp",
+                "storage.type.modifier.final.cpp",
+                "storage.type.modifier.access",
+                "keyword.other.default.constructor.cpp",
+                "keyword.other.concept.cpp",
+                "keyword.other.requires.cpp",
+                "keyword.other.operator.overload.cpp",
+                "keyword.other.default.function.cpp",
                 ////////////////////////// C#
                 "storage.type.var.cs",
                 "keyword.other.directive.using.cs",
@@ -348,6 +362,9 @@
                 "storage.modifier.static.cs",
                 "keyword.operator.expression.new.cs",
                 "storage.modifier.const.cs",
+                "keyword.preprocessor",
+                "keyword.other.constraint",
+                "storage.type.accessor.init.cs",
                 ////////////////////////// RUST
                 "keyword.other.rust",
                 "storage.type.rust",
@@ -382,6 +399,7 @@
                 "variable.parameter.probably.c",
                 "variable.parameter.cpp",
                 "constant.other.placeholder.c",
+                "variable.parameter.preprocessor",
                 ////////////////////////// C#
                 "entity.name.variable.parameter.cs",
                 ////////////////////////// MD
@@ -401,10 +419,14 @@
                 "string.quoted.single.python",
                 "string.quoted.double.python",
                 "meta.fstring.python",
+                "string.quoted.multi.python",
+                "string.regexp.quoted.single.python",
                 ////////////////////////// MD
                 "meta.link.inline.markdown",
                 "markup.underline.link.image.markdown",
                 "markup.inline.raw.string.markdown",
+                ////////////////////////// C#
+                "string.unquoted.preprocessor.message.cs"
             ],
             "settings": {
                 "fontStyle": "",
@@ -426,6 +448,7 @@
                 "meta.function-call.generic.python",
                 "support.function.magic.python",
                 "support.function.builtin.python",
+                "storage.type.function.lambda.python",
                 ////////////////////////// C/C++
                 "entity.name.function.c",
                 "meta.function-call.generic.c",
@@ -435,6 +458,8 @@
                 "entity.name.function.call.cpp",
                 "entity.name.function.definition.special.constructor.cpp",
                 "entity.name.function.member.cpp",
+                "entity.name.function.definition.special.member",
+                "entity.name.operator.cpp",
                 ////////////////////////// C#
                 "entity.name.function.cs",
                 ////////////////////////// BASH
@@ -481,6 +506,7 @@
                 "storage.type.class.python",
                 "storage.type.string.python",
                 "variable.key.dotenv",
+                "storage.type.function.async.python",
                 ////////////////////////// C/C++
                 "storage.type.class.c",
                 "storage.type.built-in.c",
@@ -493,10 +519,22 @@
                 "storage.type.function.c",
                 "storage.type.struct.cpp",
                 "entity.name.type.parameter.cpp",
+                "storage.type.union.c",
+                "storage.type.enum.cpp",
+                "storage.type.enum.enum-key.class.cpp",
+                "storage.type.integral",
+                "storage.type.union.cpp",
+                "storage.type.template.cpp",
+                "storage.type.template.argument.typename.cpp",
+                "storage.type.return-type.lambda.cpp",
                 ////////////////////////// C#
                 "entity.name.type.interface.cs",
                 "entity.name.type.class.cs",
                 "storage.type.interface.cs",
+                "storage.type.record.cs",
+                "storage.type.struct.cs",
+                "storage.type.enum.cs",
+                "storage.type.operator.cs",
                 ////////////////////////// MD
                 "markup.bold.markdown",
                 "keyword.other.fn.rust",
@@ -523,7 +561,8 @@
                 ////////////////////////// PYTHON
                 "property.value.dotenv",
                 ////////////////////////// C/C++
-                "entity.name.function.preprocessor.c",
+                "entity.name.function.preprocessor",
+                "keyword.other.unit.exponent.decimal",
                 ////////////////////////// MD
                 "string.other.link.title.markdown",
                 "string.other.link.description.markdown",
@@ -536,7 +575,16 @@
         {
             "name": "purple italic",
             "scope": [
+                ////////////////////////// PYTHON
                 "storage.type.number.python",
+                "storage.type.imaginary.number.python",
+                "keyword.codetag.notation.python",
+                ////////////////////////// C/C++
+                "keyword.other.unit.suffix",
+                "keyword.other.unit.hexadecimal",
+                "keyword.other.unit.binary",
+                "keyword.other.unit.octal",
+                "keyword.other.unit.user-defined.cpp",
             ],
             "settings": {
                 "fontStyle": "italic",
