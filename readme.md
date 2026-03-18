@@ -62,7 +62,6 @@ Click [here](https://coolors.co/ffffff-898989-202020-fc618d-ffa770-ffe69a-8fe09e
 |XML|Basic 🟠|
 |JS|None ❌|
 |Java|None ❌|
-<!-- |PHP|None ❌| -->
 
 Also support various key-value file types such as *dotenv*, *cfg*, *ini files*, etc...
 
