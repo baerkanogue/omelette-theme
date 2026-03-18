@@ -3,6 +3,6 @@
 .gitignore
 vsc-extension-quickstart.md
 export
-samples
+*/samples
 *.sh
 *.vsix
