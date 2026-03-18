@@ -185,6 +185,7 @@
         "symbolIcon.interfaceForeground": "#9694ff",
         "symbolIcon.enumeratorForeground": "#fc618d",
         "symbolIcon.enumeratorMemberForeground": "#ffa770",
+        "symbolIcon.typeParameterForeground": "#ffa770",
         ////////////////////////////////////////// TERMINAL
         "terminal.foreground": "#f7f1ff",
         "terminal.ansiBlack": "#8b8b8b",
