@@ -275,9 +275,7 @@
     "tokenColors": [
         {
             "name": "white",
-            "scope": [
-                "variable.other.normal.shell",
-            ],
+            "scope": [],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#ffffff"
@@ -384,6 +382,8 @@
                 "keyword.other.rust",
                 "storage.type.rust",
                 "storage.modifier.mut.rust",
+                ////////////////////////// SHELLS
+                "punctuation.definition.variable.shell",
             ],
             "settings": {
                 "fontStyle": "",
@@ -574,6 +574,8 @@
                 "constant.numeric",
                 "constant.language",
                 "constant.character.escape",
+                ////////////////////////// SHELLS
+                "variable.other.assignment.shell",
                 ////////////////////////// PYTHON
                 "property.value.dotenv",
                 "storage.type.number.python",
