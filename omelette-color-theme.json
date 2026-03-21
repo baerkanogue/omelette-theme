@@ -52,6 +52,8 @@
         "statusBarItem.errorForeground": "#fc618d",
         "statusBarItem.warningBackground": "#1c1c1c",
         "statusBarItem.warningForeground": "#ffa770",
+        "statusBarItem.prominentBackground": "#1c1c1c",
+        "statusBarItem.prominentForeground": "#ffe69a",
         "statusBar.border": "#303030",
         "statusBar.focusBorder": "#303030",
         ////////////////////////////////////////// GUTTER
@@ -431,7 +433,7 @@
                 ////////////////////////// PYTHON
                 "string.quoted.single.python",
                 "string.quoted.double.python",
-                "meta.fstring.python",
+                // "meta.fstring.python",
                 "string.quoted.multi.python",
                 "string.regexp.quoted.single.python",
                 ////////////////////////// MD
@@ -577,6 +579,7 @@
                 "storage.type.number.python",
                 "storage.type.imaginary.number.python",
                 "keyword.codetag.notation.python",
+                "storage.type.format.python",
                 ////////////////////////// C/C++
                 "entity.name.function.preprocessor",
                 "keyword.other.unit.suffix",
