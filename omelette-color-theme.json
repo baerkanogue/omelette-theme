@@ -341,6 +341,7 @@
                 "storage.type.modifier.access.control",
                 "entity.name.tag",
                 "keyword.other.definition.ini",
+                "punctuation.parenthesis",
                 ////////////////////////// PYTHON
                 "punctuation.definition.arguments.begin.python",
                 "punctuation.definition.arguments.end.python",
