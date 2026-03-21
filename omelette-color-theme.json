@@ -383,7 +383,8 @@
                 "storage.type.rust",
                 "storage.modifier.mut.rust",
                 ////////////////////////// SHELLS
-                "punctuation.definition.variable.shell",
+                "constant.other.option.dash.shell",
+                "constant.other.option",
             ],
             "settings": {
                 "fontStyle": "",
@@ -508,12 +509,11 @@
                 "storage.type.class",
                 "storage.type.namespace",
                 ////////////////////////// SHELLS
-                "constant.other.option.dash.shell",
-                "constant.other.option",
                 "storage.type.function.shell",
                 "entity.other.attribute-name",
                 "storage.type.powershell",
                 "keyword.operator.logical.shell",
+                "variable.other.assignment.shell",
                 ////////////////////////// PYTHON
                 "entity.name.type.class.python",
                 "support.type.exception.python",
@@ -575,7 +575,7 @@
                 "constant.language",
                 "constant.character.escape",
                 ////////////////////////// SHELLS
-                "variable.other.assignment.shell",
+                "punctuation.definition.variable.shell",
                 ////////////////////////// PYTHON
                 "property.value.dotenv",
                 "storage.type.number.python",
