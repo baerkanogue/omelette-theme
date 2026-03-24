@@ -55,7 +55,7 @@ Click [here](https://coolors.co/ffffff-898989-202020-fc618d-ffa770-ffe69a-8fe09e
 |C++|Good 🟢|
 |C#|Good 🟢|
 |Rust|Good 🟢|
-|Bash|Medium 🟡|
+|Bash|Good 🟢|
 |Powershell|Medium 🟡|
 |Markdown|Medium 🟡|
 |Batch|Basic 🟠|
