@@ -53,7 +53,7 @@
         "statusBarItem.warningBackground": "#1c1c1c",
         "statusBarItem.warningForeground": "#ffa770",
         "statusBarItem.prominentBackground": "#1c1c1c",
-        "statusBarItem.prominentForeground": "#ffe69a",
+        "statusBarItem.prominentForeground": "#d7d7d7",
         "statusBar.border": "#303030",
         "statusBar.focusBorder": "#303030",
         ////////////////////////////////////////// GUTTER
@@ -525,6 +525,7 @@
                 "storage.type.string.python",
                 "variable.key.dotenv",
                 "storage.type.function.async.python",
+                "storage.type.type.python",
                 ////////////////////////// C/C++
                 "storage.type.class.c",
                 "storage.type.built-in.c",
